@@ -7,3 +7,4 @@ Here are some useful articles relevant for our course.
 * Is Design Dead ? by Martin Fowler: http://martinfowler.com/articles/designDead.html (Links to an external site.)
 * Refactoring, Martin Fowler: http://refactoring.com/ (Links to an external site.)
 * The Agile Software Development: gentle intoduction, by Don Wells (links to XP): http://www.agile-process.org/
+* Latest version of the book: http://horstmann.com/oodp3/
