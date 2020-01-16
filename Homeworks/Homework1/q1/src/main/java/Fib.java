@@ -26,6 +26,7 @@ public class Fib {
         // you must handle possible exceptions !
         if (args.length != 3) {
             System.out.println("ERROR: Expecting to have 3 arguments[f(0),f(1),n]. You have only provided " + args.length + " arguments");
+            System.exit(0);
         }
 
         int n = 0;
@@ -38,7 +39,8 @@ public class Fib {
             // get n from args[2]:
             n = Integer.parseInt(args[2]);
         } catch (Exception e) {
-            System.out.println("ERROR: Parsing Arguments error. Please be sure to enter 3 integers as inputs");
+            System.out.println("ERROR: Parsing Arguments error. Please be sure to enter 3 integers as inputs. Exiting");
+            System.exit(0);
         }
 
         System.out.println(f0 + " " + f1 + " " + n);
