@@ -8,63 +8,16 @@ public class Fib {
 
 
     /**
-     * Computes F(n) using an ***iterative*** algorithm, where F(n) = F(n-1) + F(n-2) is the recursive definition.
-     * Uses instance variables that store F(0) and F(1).
+     * Here are the following steps this function will do:
+     * 1. This main function expects to read in 3 arguments from the command line which will be f(0), f(1), and n.
+     * 2. Fib object will be created passing in f(0) and f(1)
+     * 3. Then using the f method, the fibonacci number will be computed for 0..n and printed out to the screen
+     * 4. Then using the fRec method, the fibonacci number will be computed for 0..n and printed out to the screen
      *
-     * @param n The nth Fib sequence that is desired to be computed
-     * @return result of the nth fib sequence
-     * @throws ArithmeticException
-     */
-    //
-    // use instance variables that store F(0) and F(1).
-    // check parameter and throw exception if n < 0. Don't worry about arithmetic overflow.
-    public int f(int n) throws ArithmeticException {
-        if (n < 0) {
-            throw new ArithmeticException("n less than 0");
-        }
-
-        if (n == 0) {
-            return f0;
-        } else if (n == 1) {
-            return f1;
-        }
-
-        int[] fibArray = new int[n + 1];
-        fibArray[0] = f0;
-        fibArray[1] = f1;
-        for (int i = 2; i <= n; i++) {
-            fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
-        }
-        return fibArray[n];
-    }
-
-
-    /**
-     * Computes F(n) using the ***recursive*** algorithm, where F(n) = F(n-1) + F(n-2) is the recursive definition.
-     * Uses instance variables that store F(0) and F(1).
-     *
-     * @param n The nth Fib sequence that is desired to be computed
-     * @return result of the nth fib sequence
-     * @throws ArithmeticException when n < 0
-     */
-    //
-    // check parameter and throw exception if n < 0. Don't worry about arithmetic overflow.
-    public int fRec(int n) throws ArithmeticException {
-        if (n < 0) {
-            throw new ArithmeticException("n less than 0");
-        }
-        if (n == 0) {
-            return f0;
-        } else if (n == 1) {
-            return f1;
-        } else {
-            return fRec(n - 1) + fRec(n - 2);
-        }
-    }
-
-
-    /**
-     * @param args
+     * @param args Expecting a list of 3 integers.
+     *             1. will be f(0) which should be 0
+     *             2. will be f(1) which should be 1
+     *             3. will be n for the nth item that is desired to be computed
      */
     public static void main(String[] args) {
 
@@ -109,7 +62,61 @@ public class Fib {
         }
     }
 
+    /**
+     * Computes F(n) using an ***iterative*** algorithm, where F(n) = F(n-1) + F(n-2) is the recursive definition.
+     * Uses instance variables that store F(0) and F(1).
+     *
+     * @param n The nth Fib sequence that is desired to be computed
+     * @return result of the nth fib sequence
+     * @throws ArithmeticException when n less than 0
+     */
+    //
+    // use instance variables that store F(0) and F(1).
+    // check parameter and throw exception if n < 0. Don't worry about arithmetic overflow.
+    public int f(int n) throws ArithmeticException {
+        if (n < 0) {
+            throw new ArithmeticException("n less than 0");
+        }
+
+        if (n == 0) {
+            return f0;
+        } else if (n == 1) {
+            return f1;
+        }
+
+        int[] fibArray = new int[n + 1];
+        fibArray[0] = f0;
+        fibArray[1] = f1;
+        for (int i = 2; i <= n; i++) {
+            fibArray[i] = fibArray[i - 1] + fibArray[i - 2];
+        }
+        return fibArray[n];
+    }
+
+    /**
+     * Computes F(n) using the ***recursive*** algorithm, where F(n) = F(n-1) + F(n-2) is the recursive definition.
+     * Uses instance variables that store F(0) and F(1).
+     *
+     * @param n The nth Fib sequence that is desired to be computed
+     * @return result of the nth fib sequence
+     * @throws ArithmeticException when n less than 0
+     */
+    //
+    // check parameter and throw exception if n < 0. Don't worry about arithmetic overflow.
+    public int fRec(int n) throws ArithmeticException {
+        if (n < 0) {
+            throw new ArithmeticException("n less than 0");
+        }
+        if (n == 0) {
+            return f0;
+        } else if (n == 1) {
+            return f1;
+        } else {
+            return fRec(n - 1) + fRec(n - 2);
+        }
+    }
+
     // instance variables store F(0) and F(1):
     public int f0;
     public int f1;
-};
+}
