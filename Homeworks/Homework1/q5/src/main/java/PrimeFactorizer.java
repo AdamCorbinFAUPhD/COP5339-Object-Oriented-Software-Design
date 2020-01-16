@@ -3,8 +3,8 @@ import java.util.ArrayList;
 public class PrimeFactorizer {
 
     private int n = 0;
-    private ArrayList<Integer> primes = new ArrayList();
-    private ArrayList<Integer> exponents = new ArrayList();
+    private ArrayList<Integer> internalPrimes = new ArrayList();
+    private ArrayList<Integer> internalExponents = new ArrayList();
 
     /**
      * Initialize the object with target number n.
@@ -48,12 +48,12 @@ public class PrimeFactorizer {
     }
 
     private void addPrimeToList(int i) {
-        int primeIndex = primes.indexOf(i);
+        int primeIndex = internalPrimes.indexOf(i);
         if (primeIndex == -1) {
-            primes.add(i);
-            exponents.add(1);
+            internalPrimes.add(i);
+            internalExponents.add(1);
         } else {
-            exponents.set(primeIndex, exponents.get(primeIndex) + 1);
+            internalExponents.set(primeIndex, internalExponents.get(primeIndex) + 1);
         }
     }
 
@@ -63,7 +63,10 @@ public class PrimeFactorizer {
      * This function overwrites the 'n' parameter passed to the constructor.
      */
     public void getFactorsAndExponents(int n, ArrayList<Integer> primes, ArrayList<Integer> exponents) {
-
+        if (n == this.n && this.internalPrimes.size() > 0) {
+            primes = this.internalPrimes;
+            exponents = this.internalExponents;
+        }
     }
 
 
@@ -76,13 +79,13 @@ public class PrimeFactorizer {
         StringBuilder primeFactorStr;
         primeFactorStr = new StringBuilder();
         primeFactorStr.append(n).append(" = ");
-        for (int i = 0; i < primes.size(); i++) {
-            primeFactorStr.append(primes.get(i).toString());
-            if (exponents.get(i) > 1) {
-                primeFactorStr.append("^").append(exponents.get(i).toString());
+        for (int i = 0; i < internalPrimes.size(); i++) {
+            primeFactorStr.append(internalPrimes.get(i).toString());
+            if (internalExponents.get(i) > 1) {
+                primeFactorStr.append("^").append(internalExponents.get(i).toString());
             }
 
-            if (i != primes.size() - 1) {
+            if (i != internalPrimes.size() - 1) {
                 primeFactorStr.append("*");
             }
 
