@@ -25,4 +25,29 @@ public class Greeter {
    public String sayHello() {
       return "Hello, " + name + "!";
    }
+
+   /**
+    * Swaps out the member "name" between the current Greeter object and the other Greeter object passed in.
+    *
+    * @param other Greeter object that will be used to swap out the name
+    */
+   public void swapNames(Greeter other) {
+      String tempName = other.name;
+      other.name = this.name;
+      this.name = tempName;
+   }
+
+   /**
+    * Creates a new Greeter object with its name being the qualifier string followed by
+    * " " and the executing greeter's name (i.e. this.name).
+    * For example:
+    * Greeter g = new Greeter("world");
+    * Greeter g2 = g.createQualifiedGreeter("beautiful");
+    *
+    * @param qualifier The string used in the creation of the new Greeter object
+    * @return New Greeter object with the new name
+    */
+   public Greeter createQualifiedGreeter(String qualifier) {
+      return new Greeter(qualifier + " " + this.name);
+   }
 }
