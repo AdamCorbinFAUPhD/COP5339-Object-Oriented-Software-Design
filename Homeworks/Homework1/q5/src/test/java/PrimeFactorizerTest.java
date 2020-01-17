@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class PrimeFactorizerTest {
     public static void main(String[] args) {
         PrimeFactorizer primeFactorizer = new PrimeFactorizer(9);
@@ -23,5 +25,15 @@ class PrimeFactorizerTest {
         PrimeFactorizer p5 = new PrimeFactorizer(60);
         p5.compute();
         System.out.println(p5.toString());
+        System.out.println("---");
+        ArrayList<Integer> p = new ArrayList();
+        ArrayList<Integer> e = new ArrayList();
+        p5.getFactorsAndExponents(78,p,e);
+        System.out.println(p5.toString());
+        for (Integer integer : p) {
+            System.out.println(integer);
+        }
+
+
     }
 }
