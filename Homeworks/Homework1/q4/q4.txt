@@ -1,0 +1,24 @@
+
+int x = 0;
+try {
+	Greeter g1 = new Greeter("Alice");
+	Greeter g2 = new Greeter("Alice");
+
+	if (g1.sayHello() != g2.sayHello()) {
+		g2 = null;
+	}
+	x = 1;
+	System.out.println(g2.sayHello());
+	x = 2;
+} catch (NullPointerException ex) {
+	x = 10;
+} catch (RuntimeException ex) {
+	x = 4;
+} finally {
+	x++;
+}
+
+The answer should be 11. The reason is the != comparison is comparing the address values which is not desired.This sets
+g2 to null. Then x gets set to 1, and then when g2 calls sayHello we get a NullPointerException which sets x to 10. Finally
+will then be run and incrementing x by 1 which will make x 11.
+this will always be true. There are a few ways to correctly compare strings and here is one for example g1.sayHello().equals(g2.sayHello())
