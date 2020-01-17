@@ -1,6 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
+import java.util.Scanner;
 
 class DataAnalyzerTest {
     /**
@@ -13,11 +14,18 @@ class DataAnalyzerTest {
      */
     public static void main(String[] args) throws IOException {
 
-        if (args.length < 2) {
+        Scanner sc = new Scanner(System.in);
+        String input = "";
+        System.out.println("Please a list of numbers separated by spaces and end with a .txt filename:");
+        input = sc.nextLine();
+        System.out.println(input);
+        String[] list = input.split(" ");
+
+        if (list.length < 2) {
             System.out.println("Expecting at a list of integers and a file name. At minimum 1 int and 1 filename. Exiting");
             System.exit(0);
         }
-        String fileName = args[args.length - 1];
+        String fileName = list[list.length - 1];
         if (!fileName.contains(".txt")) {
             System.out.println("Last input was expected to have \".txt\" in the argument list");
             System.exit(0);
@@ -26,8 +34,8 @@ class DataAnalyzerTest {
         LinkedList<Integer> inputList = new LinkedList();
         FileWriter out = new FileWriter(fileName);
         try {
-            for (int i = 0; i < args.length - 1; i++) {
-                Integer num = Integer.parseInt(args[i]);
+            for (int i = 0; i < list.length - 1; i++) {
+                Integer num = Integer.parseInt(list[i]);
                 inputList.add(num);
                 out.write(num + " \n");
                 System.out.println(num);
