@@ -83,6 +83,8 @@ public class PrimeFactorizer {
         //Only compute if n is different or if Compute hasnt happen yet
         if (n != this.n || this.internalPrimes.size() <= 0) {
             this.n = n;
+            internalPrimes.clear();
+            internalExponents.clear();
             compute();
         }
         primes.addAll(this.internalPrimes);
