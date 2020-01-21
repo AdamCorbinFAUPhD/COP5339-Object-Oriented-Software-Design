@@ -45,12 +45,18 @@ public class DataAnalyzer {
      * then be return
      *
      * @return average of the numList
+     * @throws ArithmeticException when the list is empty
      */
-    public Double average() {
-        Integer total = 0;
-        for (Integer num : numList) {
-            total += num;
+    public Double average()throws ArithmeticException  {
+        if (numList.size() != 0) {
+            Integer total = 0;
+            for (Integer num : numList) {
+                total += num;
+            }
+            return total / (double) numList.size();
         }
-        return total / (double)numList.size();
+        else{
+            throw new ArithmeticException("The list is empty. Please be sure to enter a list first");
+        }
     }
 }
