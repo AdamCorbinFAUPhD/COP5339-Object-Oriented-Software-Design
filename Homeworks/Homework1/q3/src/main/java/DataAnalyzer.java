@@ -1,5 +1,8 @@
 import java.util.LinkedList;
 
+/**
+ * The DataAnalyzer class is expected to compute some simple statistics given a list of integers.
+ */
 public class DataAnalyzer {
     private LinkedList<Integer> numList;
 
@@ -43,11 +46,11 @@ public class DataAnalyzer {
      *
      * @return average of the numList
      */
-    public Integer average() {
+    public Double average() {
         Integer total = 0;
         for (Integer num : numList) {
             total += num;
         }
-        return total / numList.size();
+        return total / (double)numList.size();
     }
 }

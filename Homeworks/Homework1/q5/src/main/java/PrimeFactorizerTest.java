@@ -18,7 +18,7 @@ class PrimeFactorizerTest {
         System.out.println(pf.toString());
         System.out.println("---");
         try{
-            System.out.print("Please enter an integer to compute the Prime Factorization: ");
+            System.out.print("Please enter an integer to exercise getFactorsAndExponents: ");
             input = sc.nextInt();
         }catch (Exception e) {
             System.out.println("ERROR: Parsing input error. Please be sure to enter integers as inputs");

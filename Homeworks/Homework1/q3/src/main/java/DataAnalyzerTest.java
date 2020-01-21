@@ -10,43 +10,47 @@ class DataAnalyzerTest {
      * c. calculates,then displays on the terminal, and also saves to that file
      * the maximum,  minimum, and average.
      *
-     * @param args list of numbers with file name being at the end of the list
+     * @param args expect the file name to be entered in args[0]
      */
     public static void main(String[] args) throws IOException {
 
+        // Retrieve the filename
+        String fileName = "";
+        if(args.length != 1 || (args.length == 1 && !args[0].contains(".txt"))){
+            System.out.println("ERROR: Expected to have \".txt\" in the first argument");
+            System.exit(0);
+        }else{
+            fileName = args[0];
+        }
+
+        //Parse the integers from the scanner
         Scanner sc = new Scanner(System.in);
         String input = "";
-        System.out.println("Please a list of numbers separated by spaces and end with a .txt filename:");
+        System.out.println("Please a list of numbers separated by spaces");
         input = sc.nextLine();
         System.out.println(input);
         String[] list = input.split(" ");
 
-        if (list.length < 2) {
-            System.out.println("Expecting at a list of integers and a file name. At minimum 1 int and 1 filename. Exiting");
-            System.exit(0);
-        }
-        String fileName = list[list.length - 1];
-        if (!fileName.contains(".txt")) {
-            System.out.println("Last input was expected to have \".txt\" in the argument list");
+        if (list.length < 1) {
+            System.out.println("Expecting at a list of integers and a file name. At minimum 1 int. Exiting");
             System.exit(0);
         }
 
         LinkedList<Integer> inputList = new LinkedList();
-        FileWriter out = new FileWriter(fileName);
+
         try {
             for (int i = 0; i < list.length - 1; i++) {
                 Integer num = Integer.parseInt(list[i]);
                 inputList.add(num);
-                out.write(num + " \n");
-                System.out.println(num);
             }
         } catch (Exception e) {
-            System.out.println("ERROR: Parsing Arguments error. Please be sure to enter integers as inputs from 1 to n-1. Exiting");
+            System.out.println("ERROR: Parsing integers error. Please be sure to enter integers as inputs. Exiting");
             System.exit(0);
         }
 
+        //Compute stats, output to screen and file.
         DataAnalyzer data = new DataAnalyzer(inputList);
-        out.write("\n");
+        FileWriter out = new FileWriter(fileName);
         out.write("Max: " + data.max().toString() + "\n");
         out.write("Min: " + data.min().toString() + "\n");
         out.write("Average: " + data.average().toString() + "\n");
