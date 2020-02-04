@@ -1,0 +1,18 @@
+For several homework 2 problems students have to write use cases and sequence diagrams. Here are several important things to remember that are very general and apply to the project and all OODP problems, too:
+
+1. Identify the actor for each UC. (customer? buyer? user?)
+
+2. Don't feel obligated to create a class for an actor. Only create a class for an actor if that class  stores  attributes about the actor that are important. If you still need a class to represent the actor, categorically DO NOT assign to this class responsibilities for what the actor is doing in use cases. 
+Example: for problem 3) the actor is the customer (who is using the system) and you actually need a class Customer that remembers name, address, age, login info (acct. name + password). DO NOT add responsibilities to this Customer class "login the system" or "selects car" and other actions the actor is doing. These actions are done by the human actor, not by an object (software).
+Example: for problem 4 (cash register) the actor is the buyer ('user' or 'customer' also good names), but please, please, please do NOT create a Buyer class as there is nothing in the problem implying  the system (i.e. application) would have to remember anything about this actor. 
+
+3. Start with "essential" use cases. These are high-level stories describing the interaction between an actor and the system. Write variations for special cases. Refer to other use cases when necessary. Use cases can be viewed as modular, just like you can call functions to avoid repeating writing the same code in programming.
+Example: voicemail example: UC "retrieve messages" refers to "UC log in " at the beginning.
+
+4. Use  "essential" use cases and the functional spec. to identify classes and relationships.
+
+5. Do the "walkthrough", where you create a new version of the use cases that use classes. The book lists these UCs on page 68 and calls them "analyzed". 
+
+6. Write ONE sequence diagram for EACH UC scenario. 
+
+7. Implementation phase: UML messages sticking into an object's  lifeline (activation bars) need to be implemented as methods offered by that object.
