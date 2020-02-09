@@ -49,7 +49,5 @@ class q4 {
             System.out.println("Press 1  - to scan an item");
             System.out.println("Press 2  - to pay");
         }
-
-
     }
 }

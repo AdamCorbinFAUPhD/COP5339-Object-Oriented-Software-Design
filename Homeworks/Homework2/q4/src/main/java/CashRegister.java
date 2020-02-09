@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 /**
@@ -88,6 +87,9 @@ class CashRegister{
         }
     }
 
+    /**
+     * Displays all the items, total and that the bill has been paid
+     */
     public void printReceipt(){
         System.out.println("--------------");
         displayAllItems();
