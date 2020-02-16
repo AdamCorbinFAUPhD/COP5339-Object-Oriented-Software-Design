@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework3/q4.1/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,9 @@
     <projectState path="$PROJECT_DIR$/Homework3/q4.1">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Homework3/q4.2">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -46,6 +47,9 @@
         <task path="$PROJECT_DIR$/Homework3/q4.1">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Homework3/q4.2">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -55,33 +59,16 @@
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
+                <item name="q4_2" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-                <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
+                <item name="q4_2" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_1" type="f1a62948:ProjectNode" />
+                <item name="q4_2" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
@@ -95,9 +82,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,7 +110,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/Homework2/q4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework3/q4.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework3/q4.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -149,7 +137,20 @@
       <command value="gradle run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.q4_1">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="q4_2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="q4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="q4_1" />
       <module name="q4_1.main" />
@@ -199,31 +200,30 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="q4.2 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework3/q4.2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ComplexTest.testDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="3.2.main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComplexTest" />
       <option name="METHOD_NAME" value="testDiv" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexTest.testMult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3.2.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTest" />
-      <option name="METHOD_NAME" value="testMult" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexTest.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3.2.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTest" />
-      <option name="METHOD_NAME" value="testSub" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComplexTest.testSub" />
-      <item itemvalue="JUnit.ComplexTest.testMult" />
       <item itemvalue="JUnit.ComplexTest.testDiv" />
       <item itemvalue="Gradle.q4.1 [init]" />
       <item itemvalue="Application.q4_1" />
+      <item itemvalue="Gradle.q4.2 [init]" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.q4.2 [init]" />
         <item itemvalue="Application.q4_1" />
         <item itemvalue="Gradle.q4.1 [init]" />
         <item itemvalue="JUnit.ComplexTest.testDiv" />
-        <item itemvalue="JUnit.ComplexTest.testMult" />
-        <item itemvalue="JUnit.ComplexTest.testSub" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +401,35 @@
       <option name="project" value="LOCAL" />
       <updated>1581847967123</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding 4_1">
+      <created>1581849966673</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581849966673</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Adding some javadocs">
+      <created>1581850034814</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581850034814</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Adding some javadocs">
+      <created>1581850130536</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581850130536</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Getting click listner to work, but just need correct colors">
+      <created>1581853087136</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581853087136</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -423,7 +451,10 @@
     <MESSAGE value="Updating format for design specs" />
     <MESSAGE value="Adding some scratch notes" />
     <MESSAGE value="Finishing 3.2 with implementation and tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing 3.2 with implementation and tests" />
+    <MESSAGE value="Adding 4_1" />
+    <MESSAGE value="Adding some javadocs" />
+    <MESSAGE value="Getting click listner to work, but just need correct colors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting click listner to work, but just need correct colors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="191" key="#ComplexTest.testAdd" timestamp="1581846216239">
@@ -445,10 +476,11 @@
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581233032055" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581492865332" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243249072" />
-    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1581839744188">
+    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1581850820428">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581839744187" />
+    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080@0.0.1793.1080" timestamp="1581850820428" />
     <state x="625" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581759720984">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
@@ -458,60 +490,60 @@
       <screen x="0" y="0" width="1792" height="1080" />
     </state>
     <state x="744" y="430" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579593482185" />
-    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581848487671">
+    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581850785097">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
-    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080@0.0.1793.1080" timestamp="1581848487671" />
-    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1581847966081">
+    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080@0.0.1793.1080" timestamp="1581850785097" />
+    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1581853086451">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186850030" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071420561" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581496619106" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243195292" />
-    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581847966081" />
-    <state x="676" y="339" key="FileChooserDialogImpl" timestamp="1581848251147">
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853086451" />
+    <state x="676" y="339" key="FileChooserDialogImpl" timestamp="1581850271508">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845925271" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243167922" />
-    <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080@0.0.1793.1080" timestamp="1581848251147" />
-    <state width="816" height="295" key="GridCell.Tab.0.bottom" timestamp="1581849922807">
+    <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080@0.0.1793.1080" timestamp="1581850271508" />
+    <state width="719" height="295" key="GridCell.Tab.0.bottom" timestamp="1581853054563">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080244" />
-    <state width="816" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
-    <state width="816" height="295" key="GridCell.Tab.0.center" timestamp="1581849922807">
+    <state width="719" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054563" />
+    <state width="719" height="295" key="GridCell.Tab.0.center" timestamp="1581853054562">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="816" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
-    <state width="816" height="295" key="GridCell.Tab.0.left" timestamp="1581849922806">
+    <state width="719" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
+    <state width="719" height="295" key="GridCell.Tab.0.left" timestamp="1581853054562">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="816" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922806" />
-    <state width="816" height="295" key="GridCell.Tab.0.right" timestamp="1581849922807">
+    <state width="719" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
+    <state width="719" height="295" key="GridCell.Tab.0.right" timestamp="1581853054562">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="816" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
-    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1581848259748">
+    <state width="719" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
+    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1581850208403">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581762588803" />
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238469828" />
-    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard/0.0.1793.1080@0.0.1793.1080" timestamp="1581848259748" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1581848397078">
+    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard/0.0.1793.1080@0.0.1793.1080" timestamp="1581850208403" />
+    <state x="397" y="183" key="SettingsEditor" timestamp="1581850278698">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="397" y="183" key="SettingsEditor/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236813932" />
     <state x="397" y="183" key="SettingsEditor/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846418219" />
-    <state x="397" y="183" key="SettingsEditor/0.0.1793.1080@0.0.1793.1080" timestamp="1581848397078" />
+    <state x="397" y="183" key="SettingsEditor/0.0.1793.1080@0.0.1793.1080" timestamp="1581850278698" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2" timestamp="1581496643407">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
