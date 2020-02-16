@@ -24,6 +24,9 @@ class Student{
         return (Date) whenEnrolled.clone();
     }
 
+    /**
+     * This comparator is used to sort students by their name
+     */
     public static Comparator<Student> getCompByName = new Comparator<Student>() {
         @Override
         public int compare(Student o1, Student o2) {
@@ -31,6 +34,9 @@ class Student{
         }
     };
 
+    /**
+     * This comparator is used to sort students by their enroll date
+     */
     public static Comparator<Student> getCompByDate = new Comparator<Student>() {
         @Override
         public int compare(Student o1, Student o2) {
