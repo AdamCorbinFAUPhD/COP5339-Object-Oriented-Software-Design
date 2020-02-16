@@ -7,7 +7,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class App {
+public class q4_2 {
     /**
      * In the main method a SimpleIcon which will be used in program to control its color. Then there will be 3 buttons
      * dynamically generated which will have Color names as their text. Each button will have an Action Listener which
