@@ -3,7 +3,8 @@ import java.util.Date;
 
 class Student{
     private String name = "";
-    private Date whenEnrolled = new Date();
+    private Date whenEnrolled;
+
     public Student(String name, Date whenEnrolled){
         this.name = name;
         this.whenEnrolled = whenEnrolled;
@@ -11,6 +12,8 @@ class Student{
 
     /**
      * @return retrieves the name from the student
+     * Precondition:None
+     * Postcondition: None
      */
     public String getName() {
         return name;
@@ -18,6 +21,8 @@ class Student{
 
     /**
      * @return retrieves the date when enrolled from the student
+     * Precondition:None
+     * Postcondition: the date object is cloned so the caller cant not manipulate the internal date
      */
     public Date getWhenEnrolled() {
         //Clone the whenEnrolled object so the date cant be changed
