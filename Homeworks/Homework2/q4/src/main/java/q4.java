@@ -2,17 +2,13 @@ import java.util.Scanner;
 
 class q4 {
     /**
-     * This main method will load up the inventory
-     * Then it will ask the user if they want to pay or scan an item
+     * This main method ask the user if they want to pay or scan an item
      * If the user incorrectly enters in an selection, it will ask the user to retry
      * @param args
      */
     public static void main(String[] args) {
         CashRegister cashRegister = new CashRegister();
 
-        cashRegister.inventory.add(new Product(123,"Candy", 5.99));
-        cashRegister.inventory.add(new Product(111,"Apple", 2.99));
-        cashRegister.inventory.add(new Product(222,"Water", 1.99));
         System.out.println("Welcome to the Store.");
         System.out.println("Press 1  - to scan an item");
         System.out.println("Press 2  - to pay");

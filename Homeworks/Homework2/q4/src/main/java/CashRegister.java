@@ -1,14 +1,16 @@
 import java.util.ArrayList;
 
 /**
- * The Cash Register has access to the UPCScanner and the Inventory
+ * The Cash Register has access to the UPCScanner
  */
 class CashRegister{
     ArrayList<Product> checkedOutItems = new ArrayList<>();
-    Inventory inventory = new Inventory();
+    ArrayList<Product> inventory = new ArrayList<>();
     UPCScanner upcScanner = new UPCScanner();
     public CashRegister(){
-
+        inventory.add(new Product(123,"Candy", 5.99));
+        inventory.add(new Product(111,"Apple", 2.99));
+        inventory.add(new Product(222,"Water", 1.99));
     }
 
     /**
@@ -19,7 +21,7 @@ class CashRegister{
     public void scanItem(){
         int newItem = upcScanner.scanProduct();
         boolean found = false;
-        for(Product item : inventory.products){
+        for(Product item : inventory){
             if(item.upc == newItem){
                 checkedOutItems.add(item);
                 displayLastScannedItem(item);

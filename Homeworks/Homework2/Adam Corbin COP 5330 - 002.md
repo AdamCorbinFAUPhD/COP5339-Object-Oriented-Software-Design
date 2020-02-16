@@ -3,7 +3,9 @@
 # 2.1
 ## a. Use cases
 ### Clear messages from someone
-1. System owner will enter in mailbox number into voice mail system
+1. Caller dials main number of voice mail system
+1. System speaks prompt "Enter mailbox number followed by #"
+1. User types extension number
 1. Voice mail will request if owner wants to delete messages from a specific number(along with other options)
 1. System owner will acknowledge to delete messages from a specific number
 1. Voice mail will request for user to enter in phone number to delete messages
@@ -24,6 +26,18 @@
 ![](q1/failure.png)
 
 # 2.2
+## Class diagram key
+```mermaid
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+```
 ## Class diagrams
 ```mermaid
 classDiagram
@@ -49,13 +63,14 @@ class Account
 Account <|-- CreditAccount : Inheritance
 Account <|-- SavingsAccount : Inheritance
 Account <|-- CheckingAccount : Inheritance
+Account : +id: int
 Account : +balance: double
 Account : +getBalance(): double
 Account : +withdraw(amount: double)
 Account : +deposit(amount: double)
 
 class Bank
-Bank : +customers: ArrayList<Customer> 
+Bank : +customers: HashMap<int,Customer> 
 Bank o-- "0..*" Customer
 
 class Address
@@ -64,9 +79,10 @@ Address: +getAddress(): String
 
 
 class Customer
+Customer: +id: Int
 Customer: +name: String
-Customer : +accounts: ArrayList<Account> 
-Customer: +transfer(from: Account, to: Account, amount: double)
+Customer : +accounts: HashMap<int,Account> 
+Customer: +transfer(fromAccountID: int, toAccountID: int, amount: double)
 Customer o-- "1" Address 
 
 ```
@@ -99,6 +115,18 @@ Customer o-- "1" Address
     - Collaborators
         - Reservation System
         - Car
+## Class diagram key
+```mermaid
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+```        
 ## b - UML Class Diagram
 ```mermaid
 classDiagram
@@ -113,8 +141,9 @@ Car: +getCarDetails()
 class ReservationSystem
 ReservationSystem: +loginToSystem(username: String, passcode: String)
 ReservationSystem: +reserveCar(carID: int, rentalCarCompany: String , userDetails: Customer)
-ReservationSystem: +bookCar(carID: int , rentalCarCompany: String)
+ReservationSystem: +selectCar(carID: int , rentalCarCompany: String)
 ReservationSystem: +displayAvaliableCars(startDate: Date, endDate: Date, pickupLocation: Address, dropoffLocation: Address)
+ReservationSystem: +displayReservations()
 
 class Customer
 Customer: +getUserDetails()
@@ -124,16 +153,25 @@ Customer: +age: int
 
 class RentalCarCompany
 RentalCarCompany: +name: String
+RentalCarCompany: +reservations: HashMap<int,Reservation>
 RentalCarCompany: +getAvaliableCars(startDate: Date, endDate: Date, pickupLocation: Address, dropoffLocation: Address)
 RentalCarCompany: +isCarAvaliable(carID: int)
 RentalCarCompany: +bookCar(carID: int )
 
+class Reservation
+Reservation: +id: Int
+Reservation: +carID: int
+Reservation: +userDetails: Customer
+Reservation: +startDate: Date
+Reservation: +endDate: Date
 
 RentalCarCompany o-- "1..*" Car
 
 ReservationSystem --> "1..*" RentalCarCompany
 
 ReservationSystem --> "0..*" Customer
+
+RentalCarCompany o--"0..*" Reservation
 
 ```
 
@@ -182,12 +220,26 @@ Checkout --> OrderComplete : Confirm
         - storing all the products the store carries 
     - Collaborators
         - CashRegister
-         
+    
+## Class diagram key
+```mermaid
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+```           
 ## UML
+    
 ```mermaid
 classDiagram
 
 class CashRegister
+CashRegister: +inventory : ArrayList<Product>
 CashRegister: +checkedOutItems : ArrayList<Product>
 CashRegister: +displayLastScannedItem()
 CashRegister: +payBill(money: double)
@@ -203,14 +255,10 @@ Product: +upc: int
 Product: +name: String
 Product: +price: double
 
-class Inventory
-Inventory: +products: ArrayList<Product>
-Inventory: +addProduct(Product)
-
 CashRegister o-- "0..*" Product
-Inventory o-- "0..*" Product
+
 CashRegister --> UPCScanner
-CashRegister --> Inventory
+UPCScanner --> Product
 
 ```
 
@@ -222,17 +270,13 @@ import java.util.Scanner;
 
 class q4 {
     /**
-     * This main method will load up the inventory
-     * Then it will ask the user if they want to pay or scan an item
+     * This main method ask the user if they want to pay or scan an item
      * If the user incorrectly enters in an selection, it will ask the user to retry
      * @param args
      */
     public static void main(String[] args) {
         CashRegister cashRegister = new CashRegister();
 
-        cashRegister.inventory.add(new Product(123,"Candy", 5.99));
-        cashRegister.inventory.add(new Product(111,"Apple", 2.99));
-        cashRegister.inventory.add(new Product(222,"Water", 1.99));
         System.out.println("Welcome to the Store.");
         System.out.println("Press 1  - to scan an item");
         System.out.println("Press 2  - to pay");
@@ -278,14 +322,16 @@ class q4 {
 import java.util.ArrayList;
 
 /**
- * The Cash Register has access to the UPCScanner and the Inventory
+ * The Cash Register has access to the UPCScanner
  */
 class CashRegister{
     ArrayList<Product> checkedOutItems = new ArrayList<>();
-    Inventory inventory = new Inventory();
+    ArrayList<Product> inventory = new ArrayList<>();
     UPCScanner upcScanner = new UPCScanner();
     public CashRegister(){
-
+        inventory.add(new Product(123,"Candy", 5.99));
+        inventory.add(new Product(111,"Apple", 2.99));
+        inventory.add(new Product(222,"Water", 1.99));
     }
 
     /**
@@ -296,7 +342,7 @@ class CashRegister{
     public void scanItem(){
         int newItem = upcScanner.scanProduct();
         boolean found = false;
-        for(Product item : inventory.products){
+        for(Product item : inventory){
             if(item.upc == newItem){
                 checkedOutItems.add(item);
                 displayLastScannedItem(item);
@@ -373,26 +419,6 @@ class CashRegister{
         displayTotal();
         System.out.println("Paid!");
     }
-}
-```
-### Inventory
-```java
-import java.util.ArrayList;
-
-public class Inventory {
-    public ArrayList<Product> products = new ArrayList<>();
-    public Inventory(){
-
-    }
-
-    /**
-     * Adds a new product to the inventory
-     * @param product new product to be added to the inventory
-     */
-    public void add(Product product){
-        products.add(product);
-    }
-
 }
 ```
 
@@ -499,6 +525,18 @@ class UPCScanner{
     - Collaborators
         - Human creating post(no class needed)
 
+## Class diagram key
+```mermaid
+classDiagram
+classA --|> classB : Inheritance
+classC --* classD : Composition
+classE --o classF : Aggregation
+classG --> classH : Association
+classI -- classJ : Link(Solid)
+classK ..> classL : Dependency
+classM ..|> classN : Realization
+classO .. classP : Link(Dashed)
+```  
 ## c - UML Class Diagrams
 
 ```mermaid
@@ -538,7 +576,7 @@ Post: +text: String
 System --> "0..*" User
 System --> "0..*" Post
 User -- Post
-User -- User : Users have connections with eachother
+User --> "0..*" User : friend connections
 
 ```
 
