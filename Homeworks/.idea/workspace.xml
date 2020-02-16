@@ -1,31 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="Adding CRC cards and UML classes">
-      <change afterPath="$PROJECT_DIR$/Homework3/q3.1/q3.1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/q3.2/src/main/java/Complex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/q3.2/src/main/java/ComplexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework3/q3.2/src/main/java/q3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Homeworks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homeworks.iml" afterDir="false" />
+    <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Homework3/q4.1/src/main/java/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework1/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/Adam Corbin COP 5330 - 002.md" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/Adam Corbin COP 5330 - 002.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q1/failure.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q1/failure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q1/sequence_diagram_failure.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q1/sequence_diagram_failure.seq.violet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q1/sequence_diagrams.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q1/sequence_diagrams.seq.violet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q1/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q1/success.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q2/q2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q2/q2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q3/make_reservation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q3/make_reservation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q3/make_reservation.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q3/make_reservation.seq.violet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q4/src/main/java/CashRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q4/src/main/java/CashRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q4/src/main/java/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q4/src/main/java/q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q4/src/main/java/q4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q5/edit_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q5/edit_profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q5/edit_profile.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q5/edit_profile.seq.violet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q5/read_recent_posts.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q5/read_recent_posts.seq.violet.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q5/write_post.png" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q5/write_post.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework2/q5/write_post.seq.violet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Homework2/q5/write_post.seq.violet.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +24,9 @@
     <projectState path="$PROJECT_DIR$/Homework3/q3.2">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Homework3/q4.1">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -61,55 +43,47 @@
         <task path="$PROJECT_DIR$/Homework3/q3.2">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Homework3/q4.1">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
                 <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
+                <item name="q4_1" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="3.2" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -149,22 +123,25 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/Homework2/q4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework3/q3.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework3/q4.1" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q4.1\src\main\java" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main\java" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework2\q1" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework2" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -172,7 +149,20 @@
       <command value="gradle run" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexTest.testDiv">
+  <component name="RunManager" selected="Application.q4_1">
+    <configuration name="q4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q4_1" />
+      <module name="q4_1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,30 +180,30 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ComplexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3.2.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="q4.1 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework3/q4.1" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="ComplexTest.testDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="3.2.main" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComplexTest" />
       <option name="METHOD_NAME" value="testDiv" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComplexTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3.2.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTest" />
-      <option name="METHOD_NAME" value="testEquals" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -246,19 +236,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComplexTest" />
-      <item itemvalue="JUnit.ComplexTest.testEquals" />
       <item itemvalue="JUnit.ComplexTest.testSub" />
       <item itemvalue="JUnit.ComplexTest.testMult" />
       <item itemvalue="JUnit.ComplexTest.testDiv" />
+      <item itemvalue="Gradle.q4.1 [init]" />
+      <item itemvalue="Application.q4_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.q4_1" />
+        <item itemvalue="Gradle.q4.1 [init]" />
         <item itemvalue="JUnit.ComplexTest.testDiv" />
         <item itemvalue="JUnit.ComplexTest.testMult" />
         <item itemvalue="JUnit.ComplexTest.testSub" />
-        <item itemvalue="JUnit.ComplexTest" />
-        <item itemvalue="JUnit.ComplexTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -404,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581496620023</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finishing 3.2 with implementation and tests">
+      <created>1581847967123</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581847967123</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -425,7 +422,8 @@
     <MESSAGE value="Adding project design specification" />
     <MESSAGE value="Updating format for design specs" />
     <MESSAGE value="Adding some scratch notes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding some scratch notes" />
+    <MESSAGE value="Finishing 3.2 with implementation and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finishing 3.2 with implementation and tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="191" key="#ComplexTest.testAdd" timestamp="1581846216239">
@@ -460,53 +458,60 @@
       <screen x="0" y="0" width="1792" height="1080" />
     </state>
     <state x="744" y="430" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579593482185" />
-    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1581496619106">
+    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581848487671">
+      <screen x="0" y="0" width="1793" height="1080" />
+    </state>
+    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080@0.0.1793.1080" timestamp="1581848487671" />
+    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1581847966081">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186850030" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071420561" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581496619106" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243195292" />
-    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581247400157" />
-    <state x="676" y="339" key="FileChooserDialogImpl" timestamp="1581845925271">
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581847966081" />
+    <state x="676" y="339" key="FileChooserDialogImpl" timestamp="1581848251147">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845925271" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243167922" />
-    <state width="697" height="295" key="GridCell.Tab.0.bottom" timestamp="1581847861564">
+    <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080@0.0.1793.1080" timestamp="1581848251147" />
+    <state width="816" height="295" key="GridCell.Tab.0.bottom" timestamp="1581849922807">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080244" />
-    <state width="697" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581847861564" />
-    <state width="697" height="295" key="GridCell.Tab.0.center" timestamp="1581847861564">
+    <state width="816" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
+    <state width="816" height="295" key="GridCell.Tab.0.center" timestamp="1581849922807">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="697" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581847861564" />
-    <state width="697" height="295" key="GridCell.Tab.0.left" timestamp="1581847861563">
+    <state width="816" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
+    <state width="816" height="295" key="GridCell.Tab.0.left" timestamp="1581849922806">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="697" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581847861563" />
-    <state width="697" height="295" key="GridCell.Tab.0.right" timestamp="1581847861564">
+    <state width="816" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922806" />
+    <state width="816" height="295" key="GridCell.Tab.0.right" timestamp="1581849922807">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state width="1268" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
     <state width="875" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
-    <state width="697" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581847861564" />
-    <state x="561" y="240" key="NewModule_or_Project.wizard" timestamp="1581762588803">
+    <state width="816" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581849922807" />
+    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1581848259748">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581762588803" />
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238469828" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1581846418219">
+    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard/0.0.1793.1080@0.0.1793.1080" timestamp="1581848259748" />
+    <state x="397" y="183" key="SettingsEditor" timestamp="1581848397078">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="397" y="183" key="SettingsEditor/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236813932" />
     <state x="397" y="183" key="SettingsEditor/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846418219" />
+    <state x="397" y="183" key="SettingsEditor/0.0.1793.1080@0.0.1793.1080" timestamp="1581848397078" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2" timestamp="1581496643407">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
