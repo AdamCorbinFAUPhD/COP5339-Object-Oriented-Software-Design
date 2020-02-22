@@ -20,6 +20,7 @@ class Complex{
     }
 
     /**
+     * @precondition: Expected to have initilized real and imaginary
      * @return formatted string with the real and imaginary parts of Complex. Considers handling the negative imaginary
      * to ensure correct formatting of 1 - 4i where 4 is negative
      */
@@ -53,7 +54,7 @@ class Complex{
     /**
      * Method to add this complex object with a passed in complex object and output a newly created complex object
      * @Precondition: None
-     * @Postcondition: None
+     * @Postcondition: result of adding 2 complex object
      * @param complex object to be added to this.
      * @return result of adding 2 complex object
      */
@@ -64,7 +65,7 @@ class Complex{
     /**
      * Method to subtract this complex object with a passed in complex object and output a newly created complex object
      * @Precondition: None
-     * @Postcondition: None
+     * @Postcondition: result of subtracting 2 complex object
      * @param complex object to be subtracted to this.
      * @return result of subtracting 2 complex object
      */
@@ -75,7 +76,7 @@ class Complex{
     /**
      * Method to multiply this complex object with a passed in complex object and output a newly created complex object
      * @Precondition: None
-     * @Postcondition: None
+     * @Postcondition: result of multiplying 2 complex object
      * @param complex object to be multiplied to this.
      * @return result of multiplying 2 complex object
      */
@@ -90,7 +91,7 @@ class Complex{
      * Source on the formula for dividing:
      * https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:complex/x9e81a4f98389efdf:complex-div/v/dividing-complex-numbers
      * @Precondition: The passed in complex should have a real number and imaginary number both no equal to zero.
-     * @Postcondition: None
+     * @Postcondition: result of dividing 2 complex object
      * @param complex object to be divided to this.
      * @return result of dividing 2 complex object
      * @throws : Raise ArithmeticException when passed in complex is 0 + 0i
@@ -130,5 +131,20 @@ class Complex{
         return new Complex(this.real, this.imaginary * -1.0);
     }
 
+    public static void main(String[] args) {
 
+        Complex a = new Complex(6,3);
+        Complex b = new Complex(7,-5);
+
+        System.out.println("A:\t\t" + a.toString());
+        System.out.println("B:\t\t" + b.toString());
+        System.out.println("Add:\t" + a.add(b));
+        System.out.println("Sub:\t" + a.sub(b));
+        System.out.println("Mult:\t" + a.mult(b));
+        System.out.println("Div a/b:\t" + a.div(b));
+        System.out.println("Div b/a:\t" + b.div(a));
+        System.out.println("A Conj:\t" + a.conj().toString());
+        System.out.println("B Conj:\t" + b.conj().toString());
+
+    }
 }

@@ -13,5 +13,6 @@ class q3_2{
         System.out.println("Div b/a:\t" + b.div(a));
         System.out.println("A Conj:\t" + a.conj().toString());
         System.out.println("B Conj:\t" + b.conj().toString());
+
     }
 }

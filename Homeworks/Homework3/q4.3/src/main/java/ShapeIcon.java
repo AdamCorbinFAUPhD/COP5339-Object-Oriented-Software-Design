@@ -24,12 +24,14 @@ public class ShapeIcon implements Icon
         return height;
     }
 
+    /**
+     * This method will handel drawing all of the movableShapes on the screen
+     */
     public void paintIcon(Component c, Graphics g, int x, int y)
     {
         Graphics2D g2 = (Graphics2D) g;
-        for (int i = 0; i < shapes.length; i++) {
-
-            shapes[i].draw(g2);
+        for (MoveableShape shape : shapes) {
+            shape.draw(g2);
         }
     }
 

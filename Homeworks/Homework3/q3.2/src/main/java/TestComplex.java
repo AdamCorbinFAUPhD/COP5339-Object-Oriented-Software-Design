@@ -1,8 +1,12 @@
-import org.junit.jupiter.api.Test;
-import static org.junit.Assert.*;
+import org.junit.Test;
 
-public class ComplexTest {
+import static org.junit.Assert.assertTrue;
 
+public class TestComplex {
+
+    /**
+     * Creating 2 complex numbers with the same real and imaginary to test the equals
+     */
     @Test
     public void testEquals() {
         System.out.println("Run test equals");
@@ -11,6 +15,9 @@ public class ComplexTest {
         assertTrue(a.equals(b));
     }
 
+    /**
+     * Computing internally what an Add would do, and then using 2 complex numbers to do the same to compare.
+     */
     @Test
     public void testAdd() {
         System.out.println("run test add");
@@ -20,11 +27,13 @@ public class ComplexTest {
         Complex y = new Complex(r2,i2);
         Complex w = x.add(y);
         Complex z = new Complex(rResult,iResult);
-        // set up Complex objects
         // test condition using the Complex equals() method:
         assertTrue(z.equals(w));
     }
 
+    /**
+     * Computing internally what an subtract would do, and then using 2 complex numbers to do the same to compare.
+     */
     @Test
     public void testSub() {
         System.out.println("run test sub");
@@ -34,11 +43,13 @@ public class ComplexTest {
         Complex y = new Complex(r2,i2);
         Complex w = x.sub(y);
         Complex z = new Complex(rResult,iResult);
-        // set up Complex objects
         // test condition using the Complex equals() method:
         assertTrue(z.equals(w));
     }
 
+    /**
+     * Computing internally what an multiply would do, and then using 2 complex numbers to do the same to compare.
+     */
     @Test
     public void testMult() {
         System.out.println("run test mult");
@@ -48,11 +59,13 @@ public class ComplexTest {
         Complex y = new Complex(r2,i2);
         Complex w = x.mult(y);
         Complex z = new Complex(rResult,iResult);
-        // set up Complex objects
         // test condition using the Complex equals() method:
         assertTrue(z.equals(w));
     }
 
+    /**
+     * Computing internally what an divide would do, and then using 2 complex numbers to do the same to compare.
+     */
     @Test
     public void testDiv() {
         System.out.println("run test div");
@@ -63,7 +76,6 @@ public class ComplexTest {
         Complex y = new Complex(r2,i2);
         Complex w = x.div(y);
         Complex z = new Complex(rResult,iResult);
-        // set up Complex objects
         // test condition using the Complex equals() method:
         assertTrue(z.equals(w));
     }

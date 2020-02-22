@@ -47,7 +47,7 @@ public class q4_2 {
      * @param colors List of colors used to update the simpleIcon
      * @param simpleIcon Controlled icon based on the action listener.
      * @param frame JFrame where the simpleIcon lives and buttons live
-     * @return
+     * @return the button generated which will have an action Listener to change the icon color
      */
     private static JButton createButton(int i, String[] colorStrings, Color[] colors, SimpleIcon simpleIcon, JFrame frame){
         JButton helloButton = new JButton(colorStrings[i]);

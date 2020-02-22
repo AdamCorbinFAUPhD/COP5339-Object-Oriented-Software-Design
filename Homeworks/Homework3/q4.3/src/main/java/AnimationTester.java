@@ -3,15 +3,15 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * This program implements an animation that moves
- * a car shape.
+ * This program implements an animation that moves 5 different cars staggered where
+ * the first car is the slowest, the folling cars are 2x faster than the previous
  */
 public class AnimationTester {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
 
         //Create 5 movable shapes and start them staggered apart
-        // on the y corrdinate
+        // on the y coordinate
         final MoveableShape[] shapes = new MoveableShape[5];
         for (int i = 0; i < 5; i++) {
             shapes[i] = new CarShape(0, 0, CAR_WIDTH);
@@ -37,7 +37,6 @@ public class AnimationTester {
                             int speed = i+1;
                             shapes[i].translate(speed * speed, 0);
                         }
-//                            shape.translate(1*speed*speed, 0);
                         label.repaint();
                     }
                 });

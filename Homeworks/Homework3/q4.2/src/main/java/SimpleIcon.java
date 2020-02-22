@@ -29,6 +29,8 @@ public class SimpleIcon implements Icon {
      * @param g
      * @param x position x
      * @param y position y
+     * @preconditions: Expected that the color is already initilized
+     * @postconditions: the object will update and redraw the shape based off the size and color predefined
      */
     @Override
     public void paintIcon(Component c, Graphics g, int x, int y) {

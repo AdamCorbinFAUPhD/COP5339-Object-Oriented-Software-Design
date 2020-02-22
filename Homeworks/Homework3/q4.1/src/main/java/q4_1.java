@@ -14,7 +14,7 @@ public class q4_1 {
         list.add(s1);
         list.add(s2);
         list.add(s3);
-        list.sort(Student.getCompByName);
+        list.sort(Student.getCompByName());
         System.out.println("Sorted list by name");
         for(Student s : list){
             System.out.println(s.getName() + " " + s.getWhenEnrolled().toString() + " year:" + s.getWhenEnrolled().getYear());
@@ -22,7 +22,7 @@ public class q4_1 {
         }
 
         System.out.println("");
-        list.sort(Student.getCompByDate);
+        list.sort(Student.getCompByDate());
         System.out.println("Sorted list by Date");
         for(Student s : list){
             System.out.println(s.getName() + " " + s.getWhenEnrolled().toString() + " year:" + s.getWhenEnrolled().getYear());
