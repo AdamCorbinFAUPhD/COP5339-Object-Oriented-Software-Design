@@ -1,4 +1,5 @@
-# Functional Specification  - Adam Corbin Spring 2020
+# Pathfinding Algorithms Comparison
+## Functional Specification  - Adam Corbin Spring 2020
 ## Application Requirements
 ### Functional Requirements
 1. The system shall generate a path given a start point, and end point, and the selected algorithm
@@ -17,7 +18,7 @@
 4. The UI shall be able to see multiple algorithms running at the same time to see the differences
 5. The UI shall have the ability to auto pick the 2 points
 6. The UI shall have the ability to select which algorithms to use for the simulation
- 
+
 ## Use Cases
 ### Path found
 1. The user selects the start and end points and uses default algorithm
