@@ -24,6 +24,7 @@ header-includes: |
 # Functional Specification  
 # Description
 This application will dive into the different types of path finding algorithms games use in order to come up with the generated path when a character or player selects a destination position. This project will have a visual progression of the algorithms so that a human can see how well they preform between each other. I would like to evaluate different situations to find positives and negatives between the algorithms such as best case and worst-case scenarios. Statistic analysis will also be done to evaluate how well they rank between each other.
+
 ## List of things that this program will do
 - Visual graph representing at least 1 or more algorithms running over time
 - A way to view the results between the different algorithm
@@ -35,7 +36,9 @@ This will run on Windows 10 OS using Swing
 • Any game developers who want to consider different options for path finding.
 • Anyone who wants to understand how path finding algorithms work.
 # Application Requirements
+
 ### Functional Requirements
+
 1. **F.R-1**: The system shall generate a path given a start point, and end point, and the selected algorithm
 2. **F.R-2**: The system shall let the user know if a path is not possible to be created
 3. **F.R-3**: The system shall have the ability to clear the current paths 
@@ -46,6 +49,7 @@ This will run on Windows 10 OS using Swing
 8. **F.R-8**: The system shall find worst case scenario for each algorithm given the scenario
 
 ### UI Requirements
+
 1. **UI.R-1**: The UI shall be able to select a starting point and an end point
 2. **UI.R-2**: The UI shall have a button to start the simulation
 3. **UI.R-3**: The UI shall be able to see the algorithms behave over time where a human can visually see
@@ -54,11 +58,13 @@ This will run on Windows 10 OS using Swing
 6. **UI.R-6**: The UI shall have the ability to select which algorithms to use for the simulation
 
 # Use Cases
+
 ### UC-1: User selects a  path
 1. The user selects the start and end points and uses default algorithm
 2. The system computes the path generation
 3. The system displays a successful path
 ### UC-2: User selects a path
+
 #### Variation #1:  Invalid path
 1. After step 2 , the system displays the path could not be found 
 
@@ -69,6 +75,7 @@ This will run on Windows 10 OS using Swing
 4. The system displays a successful path
 
 ### UC-4: Computer generates path 
+
 #### Variation #1: Invalid path
 1. After step 2, the system displays that the path could not be found
 
@@ -95,7 +102,9 @@ This will run on Windows 10 OS using Swing
 Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 
 # Design Specification 
+
 ## CRC cards
+
 ### Tile
 - Responsibilities
 	- Coordinate on a map that is used to represent a node or a position
@@ -107,21 +116,12 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 - Collaborators
 	- Tile
 	- Algorithm
-	- AlgorithmAnalyzer
+	- AlgorithmController
 ### Algorithm 
 - Responsibilities
 	- Steps to find a path between a departure and destination position
 - Collaborators
-	- AlgorithmAnalyzer
-	- Path
-### AlgorithmAnalyzer
-- Responsibilities
-	- Simulator that runs the algorithms and collects the comparative results
-	- Keeps track of the tiles visited while going through the algorithm
-	- Keeps track of optimized path for each algorithm 
-	
-- Collaborators
-	- Algorithm
+	- AlgorithmController
 	- Path
 ### Grid 
 - Responsibilities
@@ -139,21 +139,32 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 - Collaborators
 	- Grid
 
+### AlgorithmController
+- Responsibilities
+	- Keeping track which algorithms are selected
+	- Running the simulations
+	- Keeps track of past history of the departure and destination tiles
+	- Simulator that runs the algorithms and collects the comparative results
+	- Keeps track of the tiles visited while going through the algorithm
+	- Keeps track of optimized path for each algorithm 
+- Collaborators
+	- GUI
+	- Grid
+	- Algorithm
 ### GUI 
+
 - Responsibilities
 	- Displaying the grid
 	- Displaying the start and end positions
 	- Selectable algorithms
-	- Running the simulations
 	- Displaying the comparison results of the different algorithms
-	- Selectable history of past start and end positions
-	- Keeps track of past history of the departure and destination tiles
+	- Selectable history of past start and end positions	
 - Collaborators
-	- Grid
-	- AlgorithmAnalyzer
-	- Algorithm
+	- AlgorithmController
 ## UML Diagrams
+
 ### Class diagram key
+
 ```mermaid
 classDiagram
 classA --|> classB : Inheritance
@@ -166,6 +177,7 @@ classM ..|> classN : Realization
 classO .. classP : Link(Dashed)
 ```
 ### Class diagrams
+
 ```mermaid
 classDiagram
 
@@ -179,17 +191,21 @@ Path: +getDeparture(): Tile
 Path: +getDestination(): Tile
 
 class Algorithm
+Algorithm: +name: String
+Algorithm: +visitedTiles: ArrayList<Tile>
 Algorithm: +computeOptimalPath(start: Tile, end: Tile): Path
-Algorithm: +getVisitedTiles(start: Tile, end: Tile): Path
-
-class AlgorithmAnalyzer
-AlgorithmAnalyzer: +algorithms: ArrayList<Algorithm>
-
-AlgorithmAnalyzer: +runSimulation(test:String)
+Algorithm: +getVisitedTiles(): ArrayList<Tile>
 
 
 class Color
 Color: +rgb: Int
+
+class AlgorithmStats
+AlgorithmStats: +algorithmName: String
+AlgorithmStats: +runtime: Long
+AlgorithmStats: +ramUsage: Long
+AlgorithmStats: +pathLength: Int
+AlgorithmStats: +visitedTiles: Int
 
 class GridTile
 GridTile: +color: Color
@@ -198,31 +214,156 @@ GridTile: +collisionFlag: Int
 
 class Grid
 Grid: +tiles: ArrayList<GridTile>
-
-Grid: +colorTile(tile: Tile, color: Color)
+Grid: +updateGrid(tiles: ArrayList<GridTile>)
+Grid: -colorTile(tile: Tile, color: Color)
 Grid: +clearGraph()
 
+class AlgorithmController
+AlgorithmController: +startPosition: Tile
+AlgorithmController: +endPosition: Tile
+AlgorithmController: +history: ArrayList<Tile[]>
+AlgorithmController: +enabledAlgorithms: ArrayList<Boolean>
+AlgorithmController: +gridData: Grid
+AlgorithmController: +latestAlgorithmStats: ArrayList<AlgorithmStats>
+AlgorithmController: +algorithms: ArrayList<Algorithm>
+AlgorithmController: +runSimulation(test:String)
+
+AlgorithmController: +setStartPosition(tile: Tile)
+AlgorithmController: +endStartPosition(tile: Tile)
 
 class GUI
-GUI: +history: ArrayList<Tile[]>
-GUI: +enabledAlgorithms: ArrayList<Boolean>
+GUI: +updateStartPosition(tile: Tile)
+GUI: +updateEndPosition(tile: Tile)
+GUI: +updateHistory(history: ArrayList<Tile[]>)
 GUI: +enableAlgorithm(algorithm: String)
+GUI: +refreshGrid(grid:Grid)
+GUI: +updateAlgoStats(stats: ArrayList<AlgorithmStats>)
 
-GUI *-- "1..1" Grid
+AlgorithmController *-- "1..1" Grid
 Grid *-- "1..*" GridTile
 GridTile --|> Tile : Inhertance
 GridTile o-- "1.1" Color
 
  
-AlgorithmAnalyzer *-- "1.*" Algorithm
+AlgorithmController *-- "1.*" Algorithm
 Algorithm ..> Path
 Path o-- "2..*" Tile
-GUI ..> AlgorithmAnalyzer
-
+AlgorithmController ..> GUI
+AlgorithmController *-- "1.*" AlgorithmStats
 ```
+
 ### Sequence Diagrams
 
+#### Path found
+```mermaid
+sequenceDiagram
+participant User
+participant GUI
+participant AlgorithmController
+participant Algorithm
+
+Note over User: Enter start position
+activate User
+User  ->>+ AlgorithmController : setStartPosition
+activate GUI
+AlgorithmController ->>- GUI : updateStartPosition
+
+Note over User: Enter end position
+deactivate GUI
+
+User ->>+ AlgorithmController : setEndPosition
+activate GUI
+AlgorithmController ->>- GUI : updateEndPosition
+
+Note over User: Click run button
+deactivate GUI
+User ->>+ AlgorithmController : runSimulationrect 
+AlgorithmController ->> Algorithm  : computeOptimalPath
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Algorithm  : getVisitedTiles
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Grid : updateGrid
+activate Grid
+deactivate Grid
+AlgorithmController ->> GUI : refreshGrid
+activate GUI
+deactivate GUI
+AlgorithmController ->>- GUI : updateAlgoStats
+activate GUI
+deactivate GUI
+Note over User: The stats will now be visible to see if path was found
+deactivate User
+
+```
+
+#### Computer generated path found
+
+#### Selecting different Algorithm
+```mermaid
+sequenceDiagram
+participant User
+participant GUI
+participant AlgorithmController
+participant Algorithm
+
+Note over User: selects a new algorithm
+activate User
+User  ->>+ AlgorithmController : setStartPosition
+activate GUI
+AlgorithmController ->>- GUI : updateStartPosition
+
+deactivate User
+
+```
+#### Compare algorithms
+```mermaid
+sequenceDiagram
+participant User
+participant GUI
+participant AlgorithmController
+participant Algorithm
+
+Note over User: Enter start position
+activate User
+User  ->>+ AlgorithmController : setStartPosition
+activate GUI
+AlgorithmController ->>- GUI : updateStartPosition
+
+Note over User: Enter end position
+deactivate GUI
+
+User ->>+ AlgorithmController : setEndPosition
+activate GUI
+AlgorithmController ->>- GUI : updateEndPosition
+
+Note over User: Click run button
+deactivate GUI
+User ->>+ AlgorithmController : runSimulationrect 
+AlgorithmController ->> Algorithm  : computeOptimalPath
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Algorithm  : getVisitedTiles
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Grid : updateGrid
+activate Grid
+deactivate Grid
+AlgorithmController ->> GUI : refreshGrid
+activate GUI
+deactivate GUI
+AlgorithmController ->>- GUI : updateAlgoStats
+activate GUI
+deactivate GUI
+Note over User: The stats will now be visible
+Note over User: Table will show comparisons between algorithms 
+deactivate User
+
+```
+
 ### State Diagrams
+
 # Glossary
 
 - Path Algorithm - A set of instructions to iterate over the points to find a way from point A to point B
@@ -232,3 +373,4 @@ GUI ..> AlgorithmAnalyzer
 - Path - a group of nodes,tiles,points that make up an array of elements used describe how to get from point A to point B
 - Results - a comparison between multiple algorithms
 - History - A list of start and end points that were chosen by the user or generated by the computer
+
