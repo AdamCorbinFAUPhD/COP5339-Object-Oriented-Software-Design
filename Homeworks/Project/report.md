@@ -222,14 +222,15 @@ class AlgorithmController
 AlgorithmController: +startPosition: Tile
 AlgorithmController: +endPosition: Tile
 AlgorithmController: +history: ArrayList<Tile[]>
-AlgorithmController: +enabledAlgorithms: ArrayList<Boolean>
+AlgorithmController: +enabledAlgorithms: Map<String,Boolean>
 AlgorithmController: +gridData: Grid
 AlgorithmController: +latestAlgorithmStats: ArrayList<AlgorithmStats>
 AlgorithmController: +algorithms: ArrayList<Algorithm>
-AlgorithmController: +runSimulation(test:String)
 
+AlgorithmController: +runSimulation(test:String)
 AlgorithmController: +setStartPosition(tile: Tile)
 AlgorithmController: +endStartPosition(tile: Tile)
+AlgorithmController: +setAlgorithmenabled(algorithmName: String)
 
 class GUI
 GUI: +updateStartPosition(tile: Tile)
