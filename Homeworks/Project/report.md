@@ -230,13 +230,14 @@ AlgorithmController: +algorithms: ArrayList<Algorithm>
 AlgorithmController: +runSimulation(test:String)
 AlgorithmController: +setStartPosition(tile: Tile)
 AlgorithmController: +endStartPosition(tile: Tile)
-AlgorithmController: +setAlgorithmenabled(algorithmName: String)
+AlgorithmController: +setAlgorithmEnabled(algorithmName: String)
+AlgorithmController: +generateRandomPositions()
 
 class GUI
 GUI: +updateStartPosition(tile: Tile)
 GUI: +updateEndPosition(tile: Tile)
 GUI: +updateHistory(history: ArrayList<Tile[]>)
-GUI: +enableAlgorithm(algorithm: String)
+GUI: +updateEnabledAlgorithms(enabledAlgorithms: Map<String,Boolen>)
 GUI: +refreshGrid(grid:Grid)
 GUI: +updateAlgoStats(stats: ArrayList<AlgorithmStats>)
 
@@ -268,17 +269,17 @@ activate User
 User  ->>+ AlgorithmController : setStartPosition
 activate GUI
 AlgorithmController ->>- GUI : updateStartPosition
-
-Note over User: Enter end position
 deactivate GUI
+Note over User: Enter end position
+
 
 User ->>+ AlgorithmController : setEndPosition
 activate GUI
 AlgorithmController ->>- GUI : updateEndPosition
-
-Note over User: Click run button
 deactivate GUI
-User ->>+ AlgorithmController : runSimulationrect 
+Note over User: Click run button
+
+User ->>+ AlgorithmController : runSimulation 
 AlgorithmController ->> Algorithm  : computeOptimalPath
 activate Algorithm
 deactivate Algorithm
@@ -300,21 +301,58 @@ deactivate User
 ```
 
 #### Computer generated path found
+```mermaid
+sequenceDiagram
+participant User
+participant GUI
+participant AlgorithmController
 
+Note over User: Generate Random start & end positions clicked
+activate User
+User  ->>+ AlgorithmController : generateRandomPositions
+
+AlgorithmController ->> GUI : updateStartPosition
+activate GUI
+deactivate GUI
+
+AlgorithmController ->>- GUI : updateEndStartPosition
+activate GUI
+deactivate GUI
+Note over User: Click run button
+
+User ->>+ AlgorithmController : runSimulation 
+AlgorithmController ->> Algorithm  : computeOptimalPath
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Algorithm  : getVisitedTiles
+activate Algorithm
+deactivate Algorithm
+AlgorithmController ->> Grid : updateGrid
+activate Grid
+deactivate Grid
+AlgorithmController ->> GUI : refreshGrid
+activate GUI
+deactivate GUI
+AlgorithmController ->>- GUI : updateAlgoStats
+activate GUI
+deactivate GUI
+Note over User: The stats will now be visible to see if path was found
+deactivate User
+
+```
 #### Selecting different Algorithm
 ```mermaid
 sequenceDiagram
 participant User
 participant GUI
 participant AlgorithmController
-participant Algorithm
 
 Note over User: selects a new algorithm
 activate User
-User  ->>+ AlgorithmController : setStartPosition
+User  ->>+ AlgorithmController : setAlgorithmEnabled
 activate GUI
-AlgorithmController ->>- GUI : updateStartPosition
-
+AlgorithmController ->>- GUI : updateEnabledAlgorithms
+deactivate GUI
 deactivate User
 
 ```
@@ -341,7 +379,7 @@ AlgorithmController ->>- GUI : updateEndPosition
 
 Note over User: Click run button
 deactivate GUI
-User ->>+ AlgorithmController : runSimulationrect 
+User ->>+ AlgorithmController : runSimulation 
 AlgorithmController ->> Algorithm  : computeOptimalPath
 activate Algorithm
 deactivate Algorithm
@@ -364,6 +402,11 @@ deactivate User
 ```
 
 ### State Diagrams
+#### Path Found
+```mermaid
+stateDiagram
+[*] --> 
+```
 
 # Glossary
 
