@@ -18,8 +18,9 @@ header-includes: |
     \rfoot{Page \thepage}
 ---
 
-\newpage{}
-
+# Path Finding Algorithm Analysis, Spring 2020 
+## Group 2 - Object Oriented Software Design
+## Adam Corbin - March 2020
 
 # Functional Specification  
 # Description
