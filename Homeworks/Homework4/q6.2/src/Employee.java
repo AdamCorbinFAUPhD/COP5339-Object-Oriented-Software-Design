@@ -1,3 +1,6 @@
+/**
+ * This is the base class
+ */
 public class Employee {
     private String name;
     private Double salary;
@@ -17,13 +20,14 @@ public class Employee {
         return salary;
     }
 
-    @Override
+    /**
+     * This is the template method in which any class that extends this class will inherit this toString method
+     * @return
+     */
     public String toString() {
         return "Employee{" +
-                "name='" + name + '\'' +
-                ", salary=" + salary +
+                "name='" + this.getName() + '\'' +
+                ", salary=" + this.getSalary() +
                 '}';
     }
-
-
 }
