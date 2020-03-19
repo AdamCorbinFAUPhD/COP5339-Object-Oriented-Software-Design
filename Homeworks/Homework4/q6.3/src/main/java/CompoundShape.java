@@ -27,6 +27,10 @@ public abstract class CompoundShape extends SelectableShape
             AffineTransform.getTranslateInstance(dx, dy));
    }
 
+   public Rectangle getPath(){
+      return path.getBounds();
+   }
+
    public void draw(Graphics2D g2)
    {
       g2.draw(path);

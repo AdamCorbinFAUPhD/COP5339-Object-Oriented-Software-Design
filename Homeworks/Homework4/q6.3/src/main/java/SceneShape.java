@@ -38,5 +38,8 @@ public interface SceneShape
       @return true if this item contains p
    */
    boolean contains(Point2D p);
+
+   Rectangle getPath();
+
 }
 
