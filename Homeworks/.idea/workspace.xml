@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="">
+    <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="F">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/create_pdf.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Project/create_pdf.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,24 @@
     <projectState path="$PROJECT_DIR$/Homework3/q4.2">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Homework3/q4.3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q5.2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q5.3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q5.3/src/main">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q6.2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q6.3">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -50,25 +69,33 @@
         <task path="$PROJECT_DIR$/Homework3/q4.2">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Homework3/q4.3">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Homework4/q5.2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Homework4/q5.3">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Homework4/q6.3">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4" type="f1a62948:ProjectNode" />
+                <item name="q6.3" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_2" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_2" type="f1a62948:ProjectNode" />
+                <item name="q6.3" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="q4_2" type="f1a62948:ProjectNode" />
+                <item name="q6.3" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build setup" type="c8890929:TasksNode$1" />
               </path>
@@ -110,26 +137,39 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/Homework2/q4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework3/q4.2" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework4/q6.3" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4\q5.3\src\main\java" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q4.1\src\main\java" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main\java" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework2\q1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4\q5.3\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="GUIController2" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -137,13 +177,13 @@
       <command value="gradle run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.SceneEditor">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="q4_2.main" />
+      <option name="MAIN_CLASS_NAME" value="q6.App" />
+      <module name="q6.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="q6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,15 +191,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q4_1" />
-      <module name="q4_1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SceneEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SceneEditor" />
+      <module name="q6.3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="q4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="q4_2" />
+      <module name="q4_2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,10 +222,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="q4.1 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="q6.3 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework3/q4.1" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework4/q6.3" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -200,10 +241,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="q4.2 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="q6.3 [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework3/q4.2" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework4/q6.3" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -211,23 +252,13 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="init" />
+            <option value="wrapper" />
           </list>
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="ComplexTest.testDiv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="3.2.main" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComplexTest" />
-      <option name="METHOD_NAME" value="testDiv" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Java Scratch">
       <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/Homework2/q4/src/main/java/q4.java" />
@@ -236,19 +267,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ComplexTest.testDiv" />
-      <item itemvalue="Gradle.q4.1 [init]" />
-      <item itemvalue="Application.q4_1" />
-      <item itemvalue="Gradle.q4.2 [init]" />
+      <item itemvalue="Application.q4_2" />
+      <item itemvalue="Gradle.q6.3 [init]" />
+      <item itemvalue="Gradle.q6.3 [wrapper]" />
       <item itemvalue="Application.App" />
+      <item itemvalue="Application.SceneEditor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SceneEditor" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.q4.2 [init]" />
-        <item itemvalue="Application.q4_1" />
-        <item itemvalue="Gradle.q4.1 [init]" />
-        <item itemvalue="JUnit.ComplexTest.testDiv" />
+        <item itemvalue="Gradle.q6.3 [wrapper]" />
+        <item itemvalue="Gradle.q6.3 [init]" />
+        <item itemvalue="Application.q4_2" />
       </list>
     </recent_temporary>
   </component>
@@ -429,20 +460,151 @@
       <option name="project" value="LOCAL" />
       <updated>1581853087136</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="MAin app">
+      <created>1581853190018</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581853190018</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finishing up4_2">
+      <created>1581877415845</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581877415845</updated>
+    </task>
+    <task id="LOCAL-00025" summary="rename file">
+      <created>1581877450295</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1581877450295</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Adding the Extra credit">
+      <created>1581879459602</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1581879459603</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Cleanup to submitting the 4 assignment">
+      <created>1582363531831</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582363531831</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Updating header">
+      <created>1584437426054</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584437426054</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adding q5.1">
+      <created>1584437458611</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584437458611</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Starting 5.3">
+      <created>1584438120641</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1584438120641</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adding source files for 5_3">
+      <created>1584439014468</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1584439014468</updated>
+    </task>
+    <task id="LOCAL-00032" summary="moving ot a java folder">
+      <created>1584440016683</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1584440016683</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Update based on feedback from the professor about the tables and UML diagrams making sure they list the interface functions">
+      <created>1584602522874</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602522874</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adding 5.3">
+      <created>1584602575456</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602575456</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Adding 5.3">
+      <created>1584602631837</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602631837</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adding 6.1">
+      <created>1584602648982</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1584602648982</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adding 6.2">
+      <created>1584603919079</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1584603919079</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/C0rbin/Documents/GitHub/COP5339-Object-Oriented-Software-Design/Homeworks" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding intelij settings" />
-    <MESSAGE value="Starting q1" />
-    <MESSAGE value="Updating use cases and sequence diagrams" />
-    <MESSAGE value="Adding Class Diagrams for 2.2" />
-    <MESSAGE value="Updating some UML connections to be more correct. Adding some more fields" />
-    <MESSAGE value="Adding 2.3 problem" />
-    <MESSAGE value="Adding types to class diagrams" />
-    <MESSAGE value="Adding partial q5" />
-    <MESSAGE value="Adding CRC cards and UML classes" />
-    <MESSAGE value="Finishing up q4" />
     <MESSAGE value="Updating class types" />
     <MESSAGE value="Cleaning up files and adding final md file" />
     <MESSAGE value="Adding  sequence diagrams&#10;adding final pdf" />
@@ -454,7 +616,21 @@
     <MESSAGE value="Adding 4_1" />
     <MESSAGE value="Adding some javadocs" />
     <MESSAGE value="Getting click listner to work, but just need correct colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting click listner to work, but just need correct colors" />
+    <MESSAGE value="MAin app" />
+    <MESSAGE value="Finishing up4_2" />
+    <MESSAGE value="rename file" />
+    <MESSAGE value="Adding the Extra credit" />
+    <MESSAGE value="Cleanup to submitting the 4 assignment" />
+    <MESSAGE value="Updating header and adding q5.2" />
+    <MESSAGE value="Adding q5.1" />
+    <MESSAGE value="Starting 5.3" />
+    <MESSAGE value="Adding source files for 5_3" />
+    <MESSAGE value="moving ot a java folder" />
+    <MESSAGE value="Update based on feedback from the professor about the tables and UML diagrams making sure they list the interface functions" />
+    <MESSAGE value="Adding 5.3" />
+    <MESSAGE value="Adding 6.1" />
+    <MESSAGE value="Adding 6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding 6.2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="191" key="#ComplexTest.testAdd" timestamp="1581846216239">
@@ -465,101 +641,163 @@
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="494" y="191" key="#ComplexTest.testEquals/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846584306" />
-    <state x="350" y="196" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581759722050">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="586" y="198" width="633" height="659" key="#GUIControler" timestamp="1584439420738">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="586" y="198" width="633" height="659" key="#GUIControler/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439420738" />
+    <state x="350" y="196" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584439570651">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="350" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439570651" />
     <state x="350" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581759722050" />
     <state x="350" y="196" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238715164" />
-    <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581492865332">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="673" y="344" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584437600609">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="673" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584437600609" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581233032055" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581492865332" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243249072" />
-    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1581850820428">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603808336">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581839744187" />
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584438321211" />
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603808336" />
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080@0.0.1791.1080" timestamp="1584535878477" />
+    <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581875597100" />
     <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080@0.0.1793.1080" timestamp="1581850820428" />
-    <state x="625" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581759720984">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="624" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584439331725">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="624" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439331725" />
     <state x="625" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581759720984" />
     <state x="625" y="368" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238379095" />
     <state x="744" y="430" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579593482185">
       <screen x="0" y="0" width="1792" height="1080" />
     </state>
     <state x="744" y="430" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579593482185" />
-    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581850785097">
+    <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581877668704">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
+    <state x="379" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877668704" />
     <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080@0.0.1793.1080" timestamp="1581850785097" />
-    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1581853086451">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1584603918534">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440012698" />
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603918534" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186850030" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071420561" />
-    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581496619106" />
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582363530549" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243195292" />
-    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853086451" />
-    <state x="676" y="339" key="FileChooserDialogImpl" timestamp="1581850271508">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853189093" />
+    <state x="675" y="339" key="FileChooserDialogImpl" timestamp="1584603959520">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845925271" />
+    <state x="675" y="339" key="FileChooserDialogImpl/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440815804" />
+    <state x="675" y="339" key="FileChooserDialogImpl/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603959520" />
+    <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877470565" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243167922" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080@0.0.1793.1080" timestamp="1581850271508" />
-    <state width="719" height="295" key="GridCell.Tab.0.bottom" timestamp="1581853054563">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="738" y="441" key="GitRewordDialog" timestamp="1584437507057">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state width="1268" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
+    <state x="738" y="441" key="GitRewordDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584437507057" />
+    <state width="1748" height="406" key="GridCell.Tab.0.bottom" timestamp="1584604427329">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1748" height="305" key="GridCell.Tab.0.bottom/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
+    <state width="1748" height="406" key="GridCell.Tab.0.bottom/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604427329" />
+    <state width="1294" height="305" key="GridCell.Tab.0.bottom/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
+    <state width="1252" height="305" key="GridCell.Tab.0.bottom/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080244" />
     <state width="719" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054563" />
-    <state width="719" height="295" key="GridCell.Tab.0.center" timestamp="1581853054562">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state width="1748" height="406" key="GridCell.Tab.0.center" timestamp="1584604427329">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state width="1268" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
+    <state width="1748" height="305" key="GridCell.Tab.0.center/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
+    <state width="1748" height="406" key="GridCell.Tab.0.center/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604427329" />
+    <state width="1294" height="305" key="GridCell.Tab.0.center/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
+    <state width="1252" height="305" key="GridCell.Tab.0.center/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state width="719" height="295" key="GridCell.Tab.0.left" timestamp="1581853054562">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state width="1748" height="406" key="GridCell.Tab.0.left" timestamp="1584604427329">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state width="1268" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
+    <state width="1748" height="305" key="GridCell.Tab.0.left/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
+    <state width="1748" height="406" key="GridCell.Tab.0.left/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604427329" />
+    <state width="1294" height="305" key="GridCell.Tab.0.left/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
+    <state width="1252" height="305" key="GridCell.Tab.0.left/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state width="719" height="295" key="GridCell.Tab.0.right" timestamp="1581853054562">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state width="1748" height="406" key="GridCell.Tab.0.right" timestamp="1584604427329">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state width="1268" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581847044388" />
+    <state width="1748" height="305" key="GridCell.Tab.0.right/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
+    <state width="1748" height="406" key="GridCell.Tab.0.right/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604427329" />
+    <state width="1294" height="305" key="GridCell.Tab.0.right/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
+    <state width="1252" height="305" key="GridCell.Tab.0.right/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1581850208403">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state width="1001" height="364" key="GridCell.Tab.1.bottom" timestamp="1584439971820">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
-    <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581762588803" />
+    <state width="1001" height="364" key="GridCell.Tab.1.bottom/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
+    <state width="1001" height="364" key="GridCell.Tab.1.center" timestamp="1584439971820">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1001" height="364" key="GridCell.Tab.1.center/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
+    <state width="1001" height="364" key="GridCell.Tab.1.left" timestamp="1584439971819">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1001" height="364" key="GridCell.Tab.1.left/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971819" />
+    <state width="1001" height="364" key="GridCell.Tab.1.right" timestamp="1584439971820">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1001" height="364" key="GridCell.Tab.1.right/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
+    <state x="560" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1584603962090">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="560" y="240" key="NewModule_or_Project.wizard/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440817446" />
+    <state x="560" y="240" key="NewModule_or_Project.wizard/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603962090" />
+    <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877472548" />
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238469828" />
     <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard/0.0.1793.1080@0.0.1793.1080" timestamp="1581850208403" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1581850278698">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="537" y="285" key="RollbackChangesDialog" timestamp="1584602589812">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="537" y="285" key="RollbackChangesDialog/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584602589812" />
+    <state x="397" y="183" key="SettingsEditor" timestamp="1584604139895">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="397" y="183" key="SettingsEditor/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440821851" />
+    <state x="397" y="183" key="SettingsEditor/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604139895" />
     <state x="397" y="183" key="SettingsEditor/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236813932" />
-    <state x="397" y="183" key="SettingsEditor/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846418219" />
+    <state x="397" y="183" key="SettingsEditor/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877555494" />
     <state x="397" y="183" key="SettingsEditor/0.0.1793.1080@0.0.1793.1080" timestamp="1581850278698" />
-    <state x="489" y="308" key="Vcs.Push.Dialog.v2" timestamp="1581496643407">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="488" y="308" key="Vcs.Push.Dialog.v2" timestamp="1584439021885">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="488" y="308" key="Vcs.Push.Dialog.v2/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439021885" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186857292" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071423470" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581496643407" />
-    <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1793.1080@0.0.1793.1080" timestamp="1581247424932" />
-    <state x="592" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1581236835754">
-      <screen x="0" y="0" width="1792" height="1080" />
+    <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853191550" />
+    <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584535995816">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1791.1080@0.0.1791.1080" timestamp="1584535995816" />
+    <state x="591" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1584433021120">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="591" y="365" key="com.intellij.ide.util.TipDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584433021120" />
     <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579507745590" />
     <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236835754" />
-    <state x="601" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1581846447966">
+    <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582368424929" />
+    <state x="601" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582359319671">
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
-    <state x="601" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846447966" />
+    <state x="601" y="434" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582359319671" />
     <state x="706" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581232457972">
       <screen x="0" y="0" width="1792" height="1080" />
     </state>
@@ -569,20 +807,27 @@
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="667" y="244" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845452234" />
-    <state x="838" y="0" width="962" height="742" key="dock-window-1" timestamp="1581847770787">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="-1613" y="0" width="762" height="734" key="dock-window-1" timestamp="1584438068693">
+      <screen x="-1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="-1613" y="0" width="762" height="734" key="dock-window-1/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584438068693" />
     <state x="1936" y="44" width="923" height="1065" key="dock-window-1/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581233693687" />
     <state x="-1041" y="0" width="962" height="742" key="dock-window-1/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846967337" />
     <state x="1936" y="0" width="923" height="1057" key="dock-window-1/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581236866105" />
     <state x="838" y="0" width="962" height="742" key="dock-window-1/0.0.1793.1080@0.0.1793.1080" timestamp="1581847770787" />
-    <state x="593" y="272" width="607" height="536" key="find.popup" timestamp="1581845294259">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="634" y="330" key="extract.method.dialog" timestamp="1584541297469">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="634" y="330" key="extract.method.dialog/0.0.1791.1080@0.0.1791.1080" timestamp="1584541297469" />
+    <state x="592" y="272" width="607" height="536" key="find.popup" timestamp="1584437636616">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="592" y="272" width="607" height="536" key="find.popup/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584437636616" />
     <state x="593" y="272" width="607" height="536" key="find.popup/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845294259" />
-    <state x="278" y="153" key="new project wizard" timestamp="1581759476679">
-      <screen x="0" y="0" width="1793" height="1080" />
+    <state x="278" y="153" key="new project wizard" timestamp="1584440201142">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="278" y="153" key="new project wizard/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440201142" />
     <state x="278" y="153" key="new project wizard/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1580808804834" />
     <state x="278" y="153" key="new project wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581759476679" />
     <state x="278" y="153" key="new project wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238801006" />
@@ -590,6 +835,10 @@
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="553" y="250" width="672" height="677" key="run.anything.popup/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238601780" />
+    <state x="299" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1581877313907">
+      <screen x="0" y="0" width="1793" height="1080" />
+    </state>
+    <state x="299" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877313907" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
