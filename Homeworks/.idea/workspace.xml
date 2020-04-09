@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ada95c1-32d1-4f61-beb1-88b7e3145e86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework4/Adam Corbin COP 5330 - 004.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/create_pdf.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework4/listings-setup.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Adam Corbin COP 5330 - 005.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/Functor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/Functor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/LengthFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/MRExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/MRExampleWithLambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/Summer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/SummerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/L1/src/main/java/TimesTwoFun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.1/10.1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.1/src/main/java/LQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.1/src/main/java/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.1/src/main/java/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.2/src/main/java/Stdout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q10.3/q10.3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q7.1/src/main/java/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework5/Q7.1/src/main/java/PairTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework6/Adam Corbin COP 5330 - 006.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/InvoiceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/InvoiceTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/LineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_example/src/main/java/invoice_example/SimpleFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/q5.2/q5.2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/q5.2/q5.2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/q6.1/q6.1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/q6.1/q6.1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/q6.2/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/q6.2/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/q6.2/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework4/q6.2/src/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework4/q6.3/src/main/java/q6/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/create_pdf.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Project/create_pdf.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/images/mockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/Project/images/mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/report.md" beforeDir="false" afterPath="$PROJECT_DIR$/Project/report.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +68,31 @@
     <projectState path="$PROJECT_DIR$/Homework4/q5.3/src/main">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/Homework4/q5.4">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/Homework4/q6.2">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/Homework4/q6.3">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework5/L1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework5/Q10.1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework5/Q10.2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework5/Q7.1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Homework5/Q7.2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/invoice_example">
       <ProjectState />
     </projectState>
   </component>
@@ -91,9 +132,35 @@
         <task path="$PROJECT_DIR$/Homework4/q5.4">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/invoice_example">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Homework5/L1">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="L1" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="L1" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="L1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="L1" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="q5.4" type="f1a62948:ProjectNode" />
@@ -121,6 +188,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -148,12 +216,12 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/Homework2/q4" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Homework6" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -162,17 +230,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4\q5.3\src\main\java" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q4.1\src\main\java" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main\java" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main" />
-      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework5" />
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\invoice_example\src\main\java\invoice_example" />
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4\q5.3\src\main\java" />
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q4.1\src\main\java" />
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework3\q3.2\src\main\java" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework6" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4" />
       <recent name="C:\Users\C0rbin\Documents\GitHub\COP5339-Object-Oriented-Software-Design\Homeworks\Homework4\q5.3\src\main\java" />
     </key>
@@ -188,30 +257,38 @@
       <command value="gradle run" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SceneEditor">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q6.App" />
-      <module name="q6.3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="q6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.PairTest">
+    <configuration name="MRExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MRExample" />
+      <module name="L1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SceneEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SceneEditor" />
-      <module name="q6.3.main" />
+    <configuration name="MRExampleWithLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MRExampleWithLambdas" />
+      <module name="L1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="q4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="q4_2" />
-      <module name="q4_2.main" />
+    <configuration name="PairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PairTest" />
+      <module name="Q7.1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueTest" />
+      <module name="Q10.1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stdout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stdout" />
+      <module name="Q10.2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,44 +310,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="q6.3 [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework4/q6.3" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="init" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="q6.3 [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Homework4/q6.3" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="wrapper" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="Java Scratch">
       <option name="SCRATCH_FILE_URL" value="file://$PROJECT_DIR$/Homework2/q4/src/main/java/q4.java" />
       <method v="2">
@@ -278,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.q4_2" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.SceneEditor" />
-      <item itemvalue="Gradle.q6.3 [init]" />
-      <item itemvalue="Gradle.q6.3 [wrapper]" />
+      <item itemvalue="Application.MRExample" />
+      <item itemvalue="Application.MRExampleWithLambdas" />
+      <item itemvalue="Application.QueueTest" />
+      <item itemvalue="Application.Stdout" />
+      <item itemvalue="Application.PairTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SceneEditor" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.q6.3 [wrapper]" />
-        <item itemvalue="Gradle.q6.3 [init]" />
-        <item itemvalue="Application.q4_2" />
+        <item itemvalue="Application.PairTest" />
+        <item itemvalue="Application.Stdout" />
+        <item itemvalue="Application.QueueTest" />
+        <item itemvalue="Application.MRExampleWithLambdas" />
+        <item itemvalue="Application.MRExample" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +629,21 @@
       <option name="project" value="LOCAL" />
       <updated>1584604536780</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Some modifications to h4 and adding the final report">
+      <created>1584610366182</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1584610366182</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Adding final report">
+      <created>1584610428978</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1584610428978</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -630,8 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding  sequence diagrams&#10;adding final pdf" />
-    <MESSAGE value="Uploading homework 3 pdf" />
     <MESSAGE value="Adding project design specification" />
     <MESSAGE value="Updating format for design specs" />
     <MESSAGE value="Adding some scratch notes" />
@@ -655,7 +706,9 @@
     <MESSAGE value="Adding 6.2" />
     <MESSAGE value="Adding q6 base" />
     <MESSAGE value="adding 6.2 gradle files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding 6.2 gradle files" />
+    <MESSAGE value="Some modifications to h4 and adding the final report" />
+    <MESSAGE value="Adding final report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding final report" />
   </component>
   <component name="WindowStateProjectService">
     <state x="494" y="191" key="#ComplexTest.testAdd" timestamp="1581846216239">
@@ -683,11 +736,11 @@
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581233032055" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581492865332" />
     <state x="674" y="344" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243249072" />
-    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603808336">
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1586338636129">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584438321211" />
-    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603808336" />
+    <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586338636129" />
     <state x="665" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1791.1080@0.0.1791.1080" timestamp="1584535878477" />
     <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581875597100" />
     <state x="666" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1793.1080@0.0.1793.1080" timestamp="1581850820428" />
@@ -706,21 +759,25 @@
     </state>
     <state x="379" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877668704" />
     <state x="379" y="408" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1793.1080@0.0.1793.1080" timestamp="1581850785097" />
-    <state x="430" y="169" key="CommitChangelistDialog2" timestamp="1584610413653">
+    <state x="430" y="79" width="1152" height="901" key="CommitChangelistDialog2" timestamp="1586420539912">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440012698" />
-    <state x="430" y="169" key="CommitChangelistDialog2/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584610413653" />
+    <state x="430" y="79" width="1152" height="901" key="CommitChangelistDialog2/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420539912" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186850030" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071420561" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582363530549" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243195292" />
     <state x="430" y="169" key="CommitChangelistDialog2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853189093" />
-    <state x="675" y="339" key="FileChooserDialogImpl" timestamp="1584603959520">
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1586332238060">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586332238060" />
+    <state x="675" y="339" key="FileChooserDialogImpl" timestamp="1586082157945">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="675" y="339" key="FileChooserDialogImpl/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440815804" />
-    <state x="675" y="339" key="FileChooserDialogImpl/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603959520" />
+    <state x="675" y="339" key="FileChooserDialogImpl/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586082157945" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877470565" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243167922" />
     <state x="676" y="339" key="FileChooserDialogImpl/0.0.1793.1080@0.0.1793.1080" timestamp="1581850271508" />
@@ -728,63 +785,83 @@
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="738" y="441" key="GitRewordDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584437507057" />
-    <state width="1748" height="202" key="GridCell.Tab.0.bottom" timestamp="1584606974050">
+    <state width="1748" height="210" key="GridCell.Tab.0.bottom" timestamp="1586420015245">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1748" height="305" key="GridCell.Tab.0.bottom/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
-    <state width="1748" height="202" key="GridCell.Tab.0.bottom/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584606974050" />
+    <state width="1748" height="210" key="GridCell.Tab.0.bottom/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420015245" />
     <state width="1294" height="305" key="GridCell.Tab.0.bottom/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
     <state width="1252" height="305" key="GridCell.Tab.0.bottom/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080244" />
     <state width="719" height="295" key="GridCell.Tab.0.bottom/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054563" />
-    <state width="1748" height="202" key="GridCell.Tab.0.center" timestamp="1584606974050">
+    <state width="1748" height="210" key="GridCell.Tab.0.center" timestamp="1586420015244">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1748" height="305" key="GridCell.Tab.0.center/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
-    <state width="1748" height="202" key="GridCell.Tab.0.center/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584606974050" />
+    <state width="1748" height="210" key="GridCell.Tab.0.center/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420015244" />
     <state width="1294" height="305" key="GridCell.Tab.0.center/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
     <state width="1252" height="305" key="GridCell.Tab.0.center/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.center/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.center/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state width="1748" height="202" key="GridCell.Tab.0.left" timestamp="1584606974049">
+    <state width="1748" height="210" key="GridCell.Tab.0.left" timestamp="1586420015244">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1748" height="305" key="GridCell.Tab.0.left/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
-    <state width="1748" height="202" key="GridCell.Tab.0.left/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584606974049" />
+    <state width="1748" height="210" key="GridCell.Tab.0.left/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420015244" />
     <state width="1294" height="305" key="GridCell.Tab.0.left/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
     <state width="1252" height="305" key="GridCell.Tab.0.left/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.left/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.left/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state width="1748" height="202" key="GridCell.Tab.0.right" timestamp="1584606974050">
+    <state width="1748" height="210" key="GridCell.Tab.0.right" timestamp="1586420015244">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1748" height="305" key="GridCell.Tab.0.right/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584525979261" />
-    <state width="1748" height="202" key="GridCell.Tab.0.right/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584606974050" />
+    <state width="1748" height="210" key="GridCell.Tab.0.right/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420015244" />
     <state width="1294" height="305" key="GridCell.Tab.0.right/0.0.1791.1080@0.0.1791.1080" timestamp="1584560110339" />
     <state width="1252" height="305" key="GridCell.Tab.0.right/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582366298657" />
     <state width="875" height="295" key="GridCell.Tab.0.right/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581243080243" />
     <state width="719" height="295" key="GridCell.Tab.0.right/0.0.1793.1080@0.0.1793.1080" timestamp="1581853054562" />
-    <state width="1001" height="364" key="GridCell.Tab.1.bottom" timestamp="1584439971820">
+    <state width="1748" height="363" key="GridCell.Tab.1.bottom" timestamp="1586340776451">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1001" height="364" key="GridCell.Tab.1.bottom/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
-    <state width="1001" height="364" key="GridCell.Tab.1.center" timestamp="1584439971820">
+    <state width="1748" height="363" key="GridCell.Tab.1.bottom/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586340776451" />
+    <state width="1748" height="363" key="GridCell.Tab.1.center" timestamp="1586340776451">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1001" height="364" key="GridCell.Tab.1.center/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
-    <state width="1001" height="364" key="GridCell.Tab.1.left" timestamp="1584439971819">
+    <state width="1748" height="363" key="GridCell.Tab.1.center/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586340776451" />
+    <state width="1748" height="363" key="GridCell.Tab.1.left" timestamp="1586340776451">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1001" height="364" key="GridCell.Tab.1.left/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971819" />
-    <state width="1001" height="364" key="GridCell.Tab.1.right" timestamp="1584439971820">
+    <state width="1748" height="363" key="GridCell.Tab.1.left/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586340776451" />
+    <state width="1748" height="363" key="GridCell.Tab.1.right" timestamp="1586340776451">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state width="1001" height="364" key="GridCell.Tab.1.right/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439971820" />
-    <state x="560" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1584603962090">
+    <state width="1748" height="363" key="GridCell.Tab.1.right/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586340776451" />
+    <state width="1748" height="364" key="GridCell.Tab.2.bottom" timestamp="1586083939755">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1748" height="364" key="GridCell.Tab.2.bottom/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083939755" />
+    <state width="1748" height="364" key="GridCell.Tab.2.center" timestamp="1586083939754">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1748" height="364" key="GridCell.Tab.2.center/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083939754" />
+    <state width="1748" height="364" key="GridCell.Tab.2.left" timestamp="1586083939753">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1748" height="364" key="GridCell.Tab.2.left/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083939753" />
+    <state width="1748" height="364" key="GridCell.Tab.2.right" timestamp="1586083939754">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state width="1748" height="364" key="GridCell.Tab.2.right/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083939754" />
+    <state x="560" y="240" width="898" height="600" key="NewModule_or_Project.wizard" timestamp="1586082162033">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="560" y="240" key="NewModule_or_Project.wizard/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440817446" />
-    <state x="560" y="240" key="NewModule_or_Project.wizard/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584603962090" />
+    <state x="560" y="240" key="NewModule_or_Project.wizard/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586082162033" />
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877472548" />
     <state x="561" y="240" key="NewModule_or_Project.wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238469828" />
     <state x="561" y="240" width="898" height="600" key="NewModule_or_Project.wizard/0.0.1793.1080@0.0.1793.1080" timestamp="1581850208403" />
@@ -792,30 +869,41 @@
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="537" y="285" key="RollbackChangesDialog/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584602589812" />
-    <state x="397" y="183" key="SettingsEditor" timestamp="1584604139895">
+    <state x="397" y="183" key="SettingsEditor" timestamp="1586084040305">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="397" y="183" key="SettingsEditor/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440821851" />
-    <state x="397" y="183" key="SettingsEditor/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584604139895" />
+    <state x="397" y="183" key="SettingsEditor/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586084040305" />
     <state x="397" y="183" key="SettingsEditor/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236813932" />
     <state x="397" y="183" key="SettingsEditor/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581877555494" />
     <state x="397" y="183" key="SettingsEditor/0.0.1793.1080@0.0.1793.1080" timestamp="1581850278698" />
-    <state x="488" y="308" key="Vcs.Push.Dialog.v2" timestamp="1584439021885">
+    <state x="617" y="281" width="570" height="524" key="StructurePopup" timestamp="1586082859654">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="617" y="281" width="570" height="524" key="StructurePopup/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586082859654" />
+    <state x="488" y="308" key="Vcs.Push.Dialog.v2" timestamp="1584610495635">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="488" y="308" key="Vcs.Push.Dialog.v2/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584439021885" />
+    <state x="488" y="308" key="Vcs.Push.Dialog.v2/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1584610495635" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579186857292" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581071423470" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581496643407" />
     <state x="489" y="308" key="Vcs.Push.Dialog.v2/0.0.1793.1080@0.0.1793.1080" timestamp="1581853191550" />
-    <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584535995816">
+    <state x="739" y="290" key="chooseDestDirectoryDialog" timestamp="1586083308656">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
+    <state x="739" y="290" key="chooseDestDirectoryDialog/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083308656" />
+    <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586419334843">
+      <screen x="0" y="0" width="1791" height="1080" />
+    </state>
+    <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586419334843" />
     <state x="92" y="92" width="1607" height="896" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1791.1080@0.0.1791.1080" timestamp="1584535995816" />
-    <state x="591" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1584433021120">
+    <state x="591" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1586083886809">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="591" y="365" key="com.intellij.ide.util.TipDialog/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584433021120" />
+    <state x="591" y="365" key="com.intellij.ide.util.TipDialog/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586083886809" />
     <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1792.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1792.1080" timestamp="1579507745590" />
     <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581236835754" />
     <state x="592" y="365" key="com.intellij.ide.util.TipDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1582368424929" />
@@ -832,27 +920,36 @@
       <screen x="0" y="0" width="1793" height="1080" />
     </state>
     <state x="667" y="244" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845452234" />
-    <state x="-1613" y="0" width="762" height="734" key="dock-window-1" timestamp="1584438068693">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="117" y="135" width="1539" height="716" key="dock-window-1" timestamp="1586349464902">
+      <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="-1613" y="0" width="762" height="734" key="dock-window-1/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584438068693" />
+    <state x="-1803" y="135" width="1539" height="716" key="dock-window-1/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586338088567" />
+    <state x="117" y="135" width="1539" height="716" key="dock-window-1/0.0.1791.1080@0.0.1791.1080" timestamp="1586349464902" />
     <state x="1936" y="44" width="923" height="1065" key="dock-window-1/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1581233693687" />
     <state x="-1041" y="0" width="962" height="742" key="dock-window-1/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581846967337" />
     <state x="1936" y="0" width="923" height="1057" key="dock-window-1/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581236866105" />
     <state x="838" y="0" width="962" height="742" key="dock-window-1/0.0.1793.1080@0.0.1793.1080" timestamp="1581847770787" />
+    <state x="-966" y="0" width="973" height="1057" key="dock-window-2" timestamp="1586418559644">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-966" y="0" width="973" height="1057" key="dock-window-2/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586418559644" />
+    <state x="889" y="0" width="909" height="1087" key="dock-window-2/0.0.1791.1080@0.0.1791.1080" timestamp="1586349464902" />
     <state x="634" y="330" key="extract.method.dialog" timestamp="1584541297469">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="634" y="330" key="extract.method.dialog/0.0.1791.1080@0.0.1791.1080" timestamp="1584541297469" />
-    <state x="592" y="272" width="607" height="536" key="find.popup" timestamp="1584437636616">
+    <state x="592" y="272" width="737" height="606" key="find.popup" timestamp="1586338873929">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="592" y="272" width="607" height="536" key="find.popup/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584437636616" />
+    <state x="592" y="272" width="737" height="606" key="find.popup/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586338873929" />
     <state x="593" y="272" width="607" height="536" key="find.popup/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581845294259" />
-    <state x="278" y="153" key="new project wizard" timestamp="1584440201142">
+    <state x="278" y="153" key="new project wizard" timestamp="1586420384063">
       <screen x="0" y="0" width="1791" height="1080" />
     </state>
     <state x="278" y="153" key="new project wizard/0.0.1791.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1791.1080" timestamp="1584440201142" />
+    <state x="278" y="153" key="new project wizard/0.0.1791.1080/-1920.0.1920.1050@0.0.1791.1080" timestamp="1586420384063" />
     <state x="278" y="153" key="new project wizard/0.0.1792.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1792.1080" timestamp="1580808804834" />
     <state x="278" y="153" key="new project wizard/0.0.1793.1080/-1920.0.1920.1050/1920.0.1920.1050@0.0.1793.1080" timestamp="1581759476679" />
     <state x="278" y="153" key="new project wizard/0.0.1793.1080/1920.0.1920.1050/-1920.0.1920.1050@0.0.1793.1080" timestamp="1581238801006" />
@@ -876,7 +973,67 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Homework5/L1/src/main/java/MyList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Homework5/Q10.1/src/main/java/QueueTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>
