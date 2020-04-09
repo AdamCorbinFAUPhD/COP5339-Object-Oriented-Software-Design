@@ -6,7 +6,7 @@ import java.io.Serializable;
  * @param <K> part 1 of pari
  * @param <V> part 2 of pair
  */
-public class Pair<K, V> implements Cloneable, Serializable {
+public class Pair<K extends Comparable, V> implements Cloneable, Serializable,Comparable<Pair<K,V>> {
 
     private K k;
     private V v;
@@ -62,5 +62,15 @@ public class Pair<K, V> implements Cloneable, Serializable {
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    /**
+     * When comparing objects mainly for sorting we will be using the K object to sort
+     * @param o object to compare to this
+     * @return reference super class docs
+     */
+    @Override
+    public int compareTo(Pair<K, V> o) {
+        return k.compareTo(o.k);
     }
 }
