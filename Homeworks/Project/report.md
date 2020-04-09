@@ -33,9 +33,10 @@ This application will dive into the different types of path finding algorithms g
 - A way to auto pick start and destination points
 
 This will run on Windows 10 OS using Swing
+
 ## Intended users
-• Any game developers who want to consider different options for path finding.
-• Anyone who wants to understand how path finding algorithms work.
+- Any game developers who want to consider different options for path finding.
+- Anyone who wants to understand how path finding algorithms work.
 # Application Requirements
 
 ### Functional Requirements
@@ -58,12 +59,13 @@ This will run on Windows 10 OS using Swing
 5. **UI.R-5**: The UI shall have the ability to auto pick the 2 points
 6. **UI.R-6**: The UI shall have the ability to select which algorithms to use for the simulation
 
-# Use Cases
+## Use Cases
 
 ### UC-1: User selects a  path
 1. The user selects the start and end points and uses default algorithm
 2. The system computes the path generation
 3. The system displays a successful path
+
 ### UC-2: User selects a path
 
 #### Variation #1:  Invalid path
@@ -97,7 +99,59 @@ This will run on Windows 10 OS using Swing
 3. The system generates the paths for each algorithm
 4. The system displays a ranking order between each algorithm with some statistics. 
 
+## Use Cases updated after GUI elements
+
+### UC-1: User selects a  path
+1. The user enters the coordinates in the start position text field and end position text filed
+1. The user checks the first algorithm JCheckBox
+1. The user presses the Compute Path buttons
+1. The system computes the path generation
+1. The system displays a successful path on the grid JPane
+
+### UC-2: User selects a path
+
+#### Variation #1:  Invalid path
+1. After step 2 , the system displays the path could not be found 
+
+### UC-3: Computer generates path 
+1. The user presses the generate start and end point button
+1. The system picks 2 random points and fills in the start and end JTextField with the positions
+1. The user presses the Compute Path buttons
+1. The system computes the path generation
+1. The system displays a successful path on the grid JPane
+
+### UC-4: Computer generates path 
+
+#### Variation #1: Invalid path
+1. After step 2, the system displays that the path could not be found
+
+### UC-5: User selects a different algorithm
+1. The user enters the coordinates in the start position text field and end position text filed
+1. The user checks the a different algorithm JCheckBox than the first
+1. The user presses the Compute Path buttons
+1. The system computes the path generation
+1. The system displays a successful path on the grid JPane
+
+### User selects points from history
+1. The user clicks on a row in the JTable in the historyTable
+1. The system will repopulate the start and end points in the JTextFields
+1. The system displays the generated path in the grid JPane
+
+### UC-6: System populates algorithm comparator  
+1. The user selects all JCheckBox for the algorithms to run for the simulation
+1. The user enters the coordinates in the start position text field and end position text filed
+1. The user presses the Compute Path buttons
+1. The system generates the paths for each algorithm
+1. The system displays a ranking order between each algorithm with some statistics in the algorithm results JTable
+
+### UC-7: Generate New Graph
+1. The user presses the New Graph button
+1. the system will clear the graph JPanel
+1. the system will then repopulate GridModel blocking elements
+1. The system will then repaint the graph JPanel
+
 # User Interface
+
 ## Mockup
 ![mockup](images/mockup.PNG)
 Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
@@ -111,6 +165,7 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 	- Coordinate on a map that is used to represent a node or a position
 - Collaborators
 	- Path
+	
 ### Path
 - Responsibilities
 	- An ordered list of tiles that will be used to represent chain of tiles to get from start to finish
@@ -118,21 +173,24 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 	- Tile
 	- Algorithm
 	- AlgorithmController
+	
 ### Algorithm 
 - Responsibilities
 	- Steps to find a path between a departure and destination position
 - Collaborators
 	- AlgorithmController
 	- Path
+	
 ### Grid 
 - Responsibilities
 	- Showing start and end tiles of a path
 	- showing the different paths for the algorithms
 	- Showing the visited tiles of the algorithms
 - Collaborators
-	- GUI
+	- GUIView
 	- Path
 	- Tile
+	
 ### GridTile
 - Responsibilities
 	- Keeping track of what colors should the tile display in the grid
@@ -149,11 +207,11 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 	- Keeps track of the tiles visited while going through the algorithm
 	- Keeps track of optimized path for each algorithm 
 - Collaborators
-	- GUI
+	- GUIView
 	- Grid
 	- Algorithm
-### GUI 
-
+	
+### GUIView 
 - Responsibilities
 	- Displaying the grid
 	- Displaying the start and end positions
@@ -162,282 +220,368 @@ Link: https://gomockingbird.com/projects/v95sylo/4gXVnC
 	- Selectable history of past start and end positions	
 - Collaborators
 	- AlgorithmController
+	
 ## UML Diagrams
 
-### Class diagram key
-
-```mermaid
-classDiagram
-classA --|> classB : Inheritance
-classC --* classD : Composition
-classE --o classF : Aggregation
-classG --> classH : Association
-classI -- classJ : Link(Solid)
-classK ..> classL : Dependency
-classM ..|> classN : Realization
-classO .. classP : Link(Dashed)
-```
 ### Class diagrams
 
-```mermaid
-classDiagram
+Examples: https://i.imgur.com/ZjBaYwR.png
 
-class Tile
-Tile: +y: Int
-Tile: +y: Int
-
-class Path
-Path: +tiles: ArrayList<Tile>
-Path: +getDeparture(): Tile
-Path: +getDestination(): Tile
-
-class Algorithm
-Algorithm: +name: String
-Algorithm: +visitedTiles: ArrayList<Tile>
-Algorithm: +computeOptimalPath(start: Tile, end: Tile): Path
-Algorithm: +getVisitedTiles(): ArrayList<Tile>
+# Notes
+1. DONE - Algo to algo controller using -<>
+1. results should be multiple itterations and add some stastices with standard deviation
+1. DONE -Remove color
+1. 1 controller for each button. Use a note for the number action listners
+1. jbuttons should link up to the action listner
+1. DONE - Use Jcomponent for Drawing
+1. Path use implement itterable for the tiles
+1. DONE - GUIView as a singleton
+1. I think DONE - Observer pattern for the Algorithems
 
 
-class Color
-Color: +rgb: Int
+```plantuml
+@startuml
+class Tile{
+ + x: Int
+ + y: Int
+}
 
-class AlgorithmStats
-AlgorithmStats: +algorithmName: String
-AlgorithmStats: +runtime: Long
-AlgorithmStats: +ramUsage: Long
-AlgorithmStats: +pathLength: Int
-AlgorithmStats: +visitedTiles: Int
+class Path{
++tiles: ArrayList<Tile>
++getDeparture(): Tile
++getDestination(): Tile
+}
 
-class GridTile
-GridTile: +color: Color
-GridTile: +position: Tile
-GridTile: +collisionFlag: Int
+abstract class Algorithm{
++computeOptimalPath(start: Tile, end: Tile): Path
++getVisitedTiles(): ArrayList<Tile>
+}
 
-class Grid
-Grid: +tiles: ArrayList<GridTile>
-Grid: +updateGrid(tiles: ArrayList<GridTile>)
-Grid: -colorTile(tile: Tile, color: Color)
-Grid: +clearGraph()
+Class AStar{
++name: String
++visitedTiles: ArrayList<Tile>
++computeOptimalPath(start: Tile, end: Tile): Path
++getVisitedTiles(): ArrayList<Tile>
+}
 
-class AlgorithmController
-AlgorithmController: +startPosition: Tile
-AlgorithmController: +endPosition: Tile
-AlgorithmController: +history: ArrayList<Tile[]>
-AlgorithmController: +enabledAlgorithms: Map<String,Boolean>
-AlgorithmController: +gridData: Grid
-AlgorithmController: +latestAlgorithmStats: ArrayList<AlgorithmStats>
-AlgorithmController: +algorithms: ArrayList<Algorithm>
+AStar .u.|> Algorithm
 
-AlgorithmController: +runSimulation(test:String)
-AlgorithmController: +setStartPosition(tile: Tile)
-AlgorithmController: +endStartPosition(tile: Tile)
-AlgorithmController: +setAlgorithmEnabled(algorithmName: String)
-AlgorithmController: +generateRandomPositions()
+Class IDAStar{
++name: String
++visitedTiles: ArrayList<Tile>
++computeOptimalPath(start: Tile, end: Tile): Path
++getVisitedTiles(): ArrayList<Tile>
+}
+IDAStar .u.|> Algorithm
 
-class GUI
-GUI: +updateStartPosition(tile: Tile)
-GUI: +updateEndPosition(tile: Tile)
-GUI: +updateHistory(history: ArrayList<Tile[]>)
-GUI: +updateEnabledAlgorithms(enabledAlgorithms: Map<String,Boolen>)
-GUI: +refreshGrid(grid:Grid)
-GUI: +updateAlgoStats(stats: ArrayList<AlgorithmStats>)
+Class BreadthFirstSearch{
++name: String
++visitedTiles: ArrayList<Tile>
++computeOptimalPath(start: Tile, end: Tile): Path
++getVisitedTiles(): ArrayList<Tile>
+}
+BreadthFirstSearch .u.|> Algorithm
 
-AlgorithmController *-- "1..1" Grid
-Grid *-- "1..*" GridTile
+Class DepthFirstSearch{
++name: String
++visitedTiles: ArrayList<Tile>
++computeOptimalPath(start: Tile, end: Tile): Path
++getVisitedTiles(): ArrayList<Tile>
+}
+DepthFirstSearch .l.|> Algorithm
+
+class AlgorithmStats{
++algorithmName: String
++runtime: Long
++ramUsage: Long
++pathLength: Int
++visitedTiles: Int
+}
+
+class GridTile{
++color: Color
++position: Tile
++collisionFlag: Int
+}
+
+class GridModel{
++tiles: ArrayList<GridTile>
++updateGrid(tiles: ArrayList<GridTile>)
+-colorTile(tile: Tile, color: Color)
++clearGraph()
+}
+
+class AlgorithmController{
++startPosition: Tile
++endPosition: Tile
++history: ArrayList<Tile[]>
++enabledAlgorithms: Map<String,Boolean>
++gridData: GridModel
++latestAlgorithmStats: ArrayList<AlgorithmStats>
++algorithms: ArrayList<Algorithm>
+
++runSimulation(test:String)
++setStartPosition(tile: Tile)
++endStartPosition(tile: Tile)
++setAlgorithmEnabled(algorithmName: String)
++generateRandomPositions()
+}
+class JFrame{}
+class JButton{}
+class JField{}
+class JLabel{}
+class JTable{}
+class JCheckBox{}
+class JPane{}
+
+class GUIView << (S,#FF7700) Singleton >>{
++mainContainer: JFrame
++grid: JComponent
++generateRandomStartEndPositionsButton: JButton
++generateRandomGridButton: JButton
++generateNewGraph: JButton
++computePathButton: JButton
++comparisonAlgoTable: JTable
++algoSelectedCheckBoxes: ArrayList<JCheckBox>
++TODO - add all jFrames and JLables and such
++TODO - add functions to add the buttons and such
++updateStartPosition(tile: Tile)
++updateEndPosition(tile: Tile)
++updateHistory(history: ArrayList<Tile[]>)
++updateEnabledAlgorithms(enabledAlgorithms: Map<String,Boolen>)
++refreshGrid(gridModel:GridModel)
++updateAlgoStats(stats: ArrayList<AlgorithmStats>)
+}
+
+AlgorithmController o-- "1..1" GridModel
+GridModel *-- "1..*" GridTile
 GridTile --|> Tile : Inhertance
-GridTile o-- "1.1" Color
+
 
  
-AlgorithmController *-- "1.*" Algorithm
+AlgorithmController o-- "1.*" Algorithm
 Algorithm ..> Path
 Path o-- "2..*" Tile
-AlgorithmController ..> GUI
-AlgorithmController *-- "1.*" AlgorithmStats
-```
 
+GUIView ..> GridModel
+GUIView ..> Tile
+GUIView ..> AlgorithmStats
+JButton -up-> "1..5" ActionListner
+GUIView *-up- "1..1" JFrame
+GUIView *-up- "1..*" JButton
+GUIView *-up- "1..*" JField
+GUIView *-up- "1..*" JLabel
+GUIView *-up- "1..*" JTable
+GUIView *-up- "1..*" JCheckBox
+GUIView *-up- "1..1" JPane
+
+AlgorithmController .up.|>  ActionListner
+AlgorithmController o-- "1.*" AlgorithmStats
+AlgorithmController ..> Tile
+
+
+@enduml
+```
 ### Sequence Diagrams
 
 #### Path found
-```mermaid
-sequenceDiagram
-participant User
-participant GUI
+
+```plantuml
+@startuml
+actor  User
 participant AlgorithmController
+participant GUIView
 participant Algorithm
 
 Note over User: Enter start position
 activate User
-User  ->>+ AlgorithmController : setStartPosition
-activate GUI
-AlgorithmController ->>- GUI : updateStartPosition
-deactivate GUI
+User  ->> AlgorithmController : setStartPosition
+activate GUIView
+AlgorithmController ->> GUIView : updateStartPosition
+deactivate GUIView
 Note over User: Enter end position
 
 
-User ->>+ AlgorithmController : setEndPosition
-activate GUI
-AlgorithmController ->>- GUI : updateEndPosition
-deactivate GUI
+User ->> AlgorithmController : setEndPosition
+activate GUIView
+AlgorithmController ->> GUIView : updateEndPosition
+deactivate GUIView
 Note over User: Click run button
 
-User ->>+ AlgorithmController : runSimulation 
+User ->> AlgorithmController : runSimulation 
 AlgorithmController ->> Algorithm  : computeOptimalPath
 activate Algorithm
 deactivate Algorithm
 AlgorithmController ->> Algorithm  : getVisitedTiles
 activate Algorithm
 deactivate Algorithm
-AlgorithmController ->> Grid : updateGrid
-activate Grid
-deactivate Grid
-AlgorithmController ->> GUI : refreshGrid
-activate GUI
-deactivate GUI
-AlgorithmController ->>- GUI : updateAlgoStats
-activate GUI
-deactivate GUI
+AlgorithmController ->> GridModel : updateGrid
+activate GridModel
+deactivate GridModel
+AlgorithmController ->> GUIView : refreshGrid
+activate GUIView
+deactivate GUIView
+AlgorithmController ->> GUIView : updateAlgoStats
+activate GUIView
+deactivate GUIView
 Note over User: The stats will now be visible to see if path was found
 deactivate User
-
+@enduml
 ```
 
 #### Computer generated path found
-```mermaid
-sequenceDiagram
-participant User
-participant GUI
+
+```plantuml
+@startuml
+actor  User
 participant AlgorithmController
+participant GUIView
 
 Note over User: Generate Random start & end positions clicked
 activate User
-User  ->>+ AlgorithmController : generateRandomPositions
+User  ->> AlgorithmController : generateRandomPositions
 
-AlgorithmController ->> GUI : updateStartPosition
-activate GUI
-deactivate GUI
+AlgorithmController ->> GUIView : updateStartPosition
+activate GUIView
+deactivate GUIView
 
-AlgorithmController ->>- GUI : updateEndStartPosition
-activate GUI
-deactivate GUI
+AlgorithmController ->> GUIView : updateEndStartPosition
+activate GUIView
+deactivate GUIView
 Note over User: Click run button
 
-User ->>+ AlgorithmController : runSimulation 
+User ->> AlgorithmController : runSimulation 
 AlgorithmController ->> Algorithm  : computeOptimalPath
 activate Algorithm
 deactivate Algorithm
 AlgorithmController ->> Algorithm  : getVisitedTiles
 activate Algorithm
 deactivate Algorithm
-AlgorithmController ->> Grid : updateGrid
-activate Grid
-deactivate Grid
-AlgorithmController ->> GUI : refreshGrid
-activate GUI
-deactivate GUI
-AlgorithmController ->>- GUI : updateAlgoStats
-activate GUI
-deactivate GUI
+AlgorithmController ->> GridModel : updateGrid
+activate GridModel
+deactivate GridModel
+AlgorithmController ->> GUIView : refreshGrid
+activate GUIView
+deactivate GUIView
+AlgorithmController ->> GUIView : updateAlgoStats
+activate GUIView
+deactivate GUIView
 Note over User: The stats will now be visible to see if path was found
 deactivate User
-
+@enduml
 ```
 #### Selecting different Algorithm
-```mermaid
-sequenceDiagram
+
+```plantuml
+@startuml
 participant User
-participant GUI
+participant GUIView
 participant AlgorithmController
 
 Note over User: selects a new algorithm
 activate User
-User  ->>+ AlgorithmController : setAlgorithmEnabled
-activate GUI
-AlgorithmController ->>- GUI : updateEnabledAlgorithms
-deactivate GUI
+User  ->> AlgorithmController : setAlgorithmEnabled
+activate GUIView
+AlgorithmController ->> GUIView : updateEnabledAlgorithms
+deactivate GUIView
 deactivate User
-
+@enduml
 ```
 #### Compare algorithms
-```mermaid
-sequenceDiagram
-participant User
-participant GUI
+
+```plantuml
+@startuml
+actor  User
 participant AlgorithmController
+participant GUIView
 participant Algorithm
 
 Note over User: Enter start position
 activate User
-User  ->>+ AlgorithmController : setStartPosition
-activate GUI
-AlgorithmController ->>- GUI : updateStartPosition
+User  ->> AlgorithmController : setStartPosition
+activate GUIView
+AlgorithmController ->> GUIView : updateStartPosition
 
 Note over User: Enter end position
-deactivate GUI
+deactivate GUIView
 
-User ->>+ AlgorithmController : setEndPosition
-activate GUI
-AlgorithmController ->>- GUI : updateEndPosition
+User ->> AlgorithmController : setEndPosition
+activate GUIView
+AlgorithmController ->> GUIView : updateEndPosition
 
 Note over User: Click run button
-deactivate GUI
-User ->>+ AlgorithmController : runSimulation 
+deactivate GUIView
+User ->> AlgorithmController : runSimulation 
 AlgorithmController ->> Algorithm  : computeOptimalPath
 activate Algorithm
 deactivate Algorithm
 AlgorithmController ->> Algorithm  : getVisitedTiles
 activate Algorithm
 deactivate Algorithm
-AlgorithmController ->> Grid : updateGrid
-activate Grid
-deactivate Grid
-AlgorithmController ->> GUI : refreshGrid
-activate GUI
-deactivate GUI
-AlgorithmController ->>- GUI : updateAlgoStats
-activate GUI
-deactivate GUI
+AlgorithmController ->> GridModel : updateGrid
+activate GridModel
+deactivate GridModel
+AlgorithmController ->> GUIView : refreshGrid
+activate GUIView
+deactivate GUIView
+AlgorithmController ->> GUIView : updateAlgoStats
+activate GUIView
+deactivate GUIView
 Note over User: The stats will now be visible
 Note over User: Table will show comparisons between algorithms 
 deactivate User
-
+@enduml
 ```
 
 ### State Diagrams
+
 #### Path Found
-```mermaid
-stateDiagram
-[*] --> Inilization
-Inilization --> Ready : Enter Start and End positions
+
+```plantuml
+@startuml
+[*] --> Initialization
+Initialization : Generates blocked tiles and areas
+Initialization --> Ready : Enter Start and End positions
 Ready --> Processing : Press compute path
 Processing --> Complete : Display results
-Complete --> Inilization : Restart
+Complete --> Initialization : Restart
+@enduml
 ```
 #### Computer Generated Path found
-```mermaid
-stateDiagram
-[*] --> Inilization
-Inilization --> Ready : Press Generate start/end positions
+
+```plantuml
+@startuml
+[*] --> Initialization
+Initialization : Generates blocked tiles and areas
+Initialization --> Ready : Press Generate start/end positions
 Ready --> Processing : Press compute path
 Processing --> Complete : Display results
-Complete --> Inilization : Restart
+Complete --> Initialization : Restart
+@enduml
 ```
 
-#### Select Different Algorithm
-```mermaid
-stateDiagram
-[*] --> Inilization
-Inilization --> Inilization : Select algorithms
-
-```
 #### Path not found found
-```mermaid
-stateDiagram
-[*] --> Inilization
-Inilization --> Ready : Enter Start and End positions
+
+```plantuml
+@startuml
+[*] --> Initialization
+Initialization : Generates blocked tiles and areas
+Initialization --> Ready : Enter Start and End positions
 Ready --> Processing : Press compute path
 Processing --> Complete : Display no path found
-Complete --> Inilization : Restart
+Complete --> Initialization : Restart
+@enduml
 ```
+
+#### Generate new Graph
+
+```plantuml
+@startuml
+[*] --> Initialization
+Initialization : Generates blocked tiles and areas
+Initialization --> Ready : Press generate new graph
+Ready --> Initialization 
+@enduml
 
 # Glossary
 

@@ -1,4 +1,8 @@
 public class LengthFun implements Functor<Integer, String> {
+    /**
+     * @param param input string to get the length from
+     * @return size of the input string length
+     */
     @Override
     public Integer apply(String param) {
         return param.length();
