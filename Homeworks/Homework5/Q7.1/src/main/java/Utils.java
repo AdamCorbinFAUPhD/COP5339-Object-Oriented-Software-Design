@@ -30,5 +30,10 @@ public class Utils {
         for(Pair<String,Integer> pair : newList){
             System.out.println(pair);
         }
+
+        System.out.println(pair1.getClass() == pair2.getClass());
+//        System.out.println(pair1 instanceof pair2.getClass());
+        System.out.println(pair1.getClass().equals(pair2.getClass()));
+
     }
 }
