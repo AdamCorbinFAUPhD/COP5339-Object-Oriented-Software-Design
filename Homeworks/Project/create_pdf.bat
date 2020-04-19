@@ -1,1 +1,0 @@
-pandoc  --verbose --toc .\report.md -o final_report.pdf -f markdown+implicit_figures+link_attributes -F pandoc-plantuml.cmd --mathjax --listings -H listings-setup.tex
