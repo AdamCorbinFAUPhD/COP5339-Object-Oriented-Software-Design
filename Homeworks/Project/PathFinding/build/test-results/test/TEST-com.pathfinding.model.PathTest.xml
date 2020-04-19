@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pathfinding.model.PathTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-04-19T06:37:30" hostname="DESKTOP-L8ORN1Q" time="0.005">
+  <properties/>
+  <testcase name="addTile" classname="com.pathfinding.model.PathTest" time="0.004"/>
+  <testcase name="remove" classname="com.pathfinding.model.PathTest" time="0.0"/>
+  <testcase name="getSize" classname="com.pathfinding.model.PathTest" time="0.0"/>
+  <testcase name="clear" classname="com.pathfinding.model.PathTest" time="0.0"/>
+  <testcase name="iterator" classname="com.pathfinding.model.PathTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

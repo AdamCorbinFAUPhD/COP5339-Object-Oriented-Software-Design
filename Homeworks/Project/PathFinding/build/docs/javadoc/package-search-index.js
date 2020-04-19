@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.pathfinding.algorithms"},{"l":"com.pathfinding.controller"},{"l":"com.pathfinding.model"},{"l":"com.pathfinding.simulation"},{"l":"com.pathfinding.view"}]
