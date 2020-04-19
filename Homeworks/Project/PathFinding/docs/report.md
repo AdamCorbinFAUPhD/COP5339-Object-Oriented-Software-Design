@@ -4,7 +4,7 @@ subtitle: Group 2 - Object Oriented Software Design
 author: >
     Adam Corbin (acorbin3@fau.edu)
 
-date: March 2020
+date: April 2020
 include-before:
 - '`\newpage{}`{=latex}'
 toc: true
@@ -14,13 +14,13 @@ urlcolor: blue
 header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
-    \lfoot{14 March 2020}
+    \lfoot{19 April 2020}
     \rfoot{Page \thepage}
 ---
 
 # Path Finding Algorithm Analysis, Spring 2020 
 ## Group 2 - Object Oriented Software Design
-## Adam Corbin - March 2020
+## Adam Corbin - April 2020
 
 # Functional Specification  
 # Description
