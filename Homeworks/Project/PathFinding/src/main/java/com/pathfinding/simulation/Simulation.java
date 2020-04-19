@@ -33,7 +33,7 @@ public class Simulation {
      * 3. execute algorithms on the graph
      * 4. collection the results
      *
-     * @preconditon - Ensure that the width and height are > 0, more than 1 algorithm in the list, and that the algorithmStatModel != null
+     * @preconditon - Ensure that the width and height are greater than 0, more than 1 algorithm in the list, and that the algorithmStatModel != null
      * @postcondition - all of the results will be stored in algorithmStatModel
      */
     public void run() {
